@@ -1,3 +1,4 @@
 _TODO_
 
-[-] Menambahkan Responsive di dalam CSS @Media
+[-] PROGRESS Menambahkan Responsive di dalam CSS @Media
+[v] DONE! Menghilangkan PageDots di slider product 
