@@ -65,6 +65,7 @@ nav form{
   .halamanatas {
     background-color: #6B9531;
     min-height: 400px;
+    text-align: center;
   }
 
   h1.title {
@@ -184,9 +185,32 @@ nav form{
 
 
 @media (min-width: 1179px), print {
+  /* BAGIAN HERO LANDING PAGE */
   .halamanatas{
     position: relative;
     margin-left: 150px;
+    text-align: left;
+  }
+
+  h1.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 17%;
+    margin-top: 15%;
+    
+  }
+
+  p.sub-title {
+    margin-left: 18%;
+  }
+
+  .img-google img {
+    width: 150px;
+    margin-left: 18%;
+  }
+
+  img.play-books {
+    margin: 10px;
   }
 
   .about{
