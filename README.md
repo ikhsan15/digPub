@@ -1,3 +1,3 @@
-# digPub
+_TODO_
 
-#testing
+[-] Menambahkan Responsive di dalam CSS @Media
