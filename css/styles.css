@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
 body{
 	background-image: url(../img/bg1.jpg);
   margin-top: 100px;
@@ -12,9 +13,7 @@ html{
 }
 
 section{
-	width: 80%;
-	/* opacity: 0.9; */
-	margin: 0px;
+	margin: auto;
 	background-color: black;
 }
  
@@ -37,16 +36,6 @@ nav form{
 	width: 50%;
 }
 
-/*.menu{
-	
-	width: 100%;
-	background-color: #99ccff;
-	position: fixed;
-	height: 300px;
-	border: 1px solid;
- }*/
-
-
 .menu ul{
   position:relative;  
 	margin-left: 250px;
@@ -63,7 +52,7 @@ nav form{
 
 /* BAGIAN HERO LANDING PAGE */
   .halamanatas {
-    background-color: #6B9531;
+    background-color: hsla(89, 43%, 51%, 0.9);
     min-height: 400px;
     text-align: center;
   }
@@ -73,11 +62,6 @@ nav form{
     font-weight: bold;
   }
 
-  .img-google img {
-    width: 150px;
-    padding-left: 10px;
-  }
-
   .ats img {
     width: 200px;
   }
@@ -85,7 +69,6 @@ nav form{
 
 /*  BAGIAN CONTENT 1 LANDING PAGE */
   .about {
-    /* height: 100%; */
     color: #6B9531;
     background-color: white;
   }
@@ -107,18 +90,15 @@ nav form{
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
-    /* margin-left: 40%; */
   }
   #myBtn-1{
     margin-left: 40%;
     margin-bottom: 5%;
   }
-
   #myBtn-2{
     margin-left: 40%;
     margin-bottom: 10%;
   }
-
   .btn-content:hover {
     background-color: #6B9531;
     color: white;
@@ -148,31 +128,14 @@ nav form{
   h2.content-2-title {
     font-size: 25px;
     font-weight: bold;
-    text-transform: uppercase;
-    text-align: left;
-/* 
-    margin-top: 50px;
     text-transform: capitalize;
     text-align: left;
-    font-size: 25px;
-    font-weight: bold; */
   }
 
-  /* .portfolio p {
-    min-height: 200px;
-  } */
 /* FINISH CONTENT 2 LANDING PAGE */
 
-  /* .galeri{
-    min-height: 900px;
-  } */
-
-  footer{
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    background-color: #aaa;
-    padding-top: 30px;
+  .galeri{
+    background-color: hsla(89, 43%, 51%, 0.9);
   }
 
   #more {display: none;}
@@ -189,13 +152,9 @@ nav form{
 
 
 @media (min-width: 1179px), print {
-  
+    
+
   /* HALAMAN ATAS */
-    .halamanatas{
-      position: relative;
-      margin-left: 150px;
-      text-align: left;
-    }
     h1.title {
       text-transform: uppercase;
       font-weight: bold;
@@ -214,58 +173,35 @@ nav form{
     }
 
   /* ABOUT */
-    .about{
-      position: relative;
-      margin-left: 150px;
-    }
     .about p {
       text-align: justify;
     }
-
     .about .col-sm-12 {
       margin: 0px 50px 0px 90px;
     }
-
     p.content-p {
-    /* max-width: 870px; */
-    padding-right: 170px;
+      padding-right: 170px;
     } 
-
     .col-sm-12 img {
       float: left;
       margin-right: 20px;
     }
-
     #konten-2 {
       padding-left: 100px;
       padding-right: 100px;
     }
 
   /* PORTOFOLIO */
-    .portfolio{
-      position: relative;
-      margin-left: 150px;
-    }
     .portfolio p {
       text-align: justify;
     }
 
   /* GALERI */
-    .galeri{
-      position: relative;
-      margin-left: 150px;   
-    }
     .galeri h2, h5 {
       margin-top: 5%;
       text-transform: capitalize;
       font-weight: bold;
     }
-
-    /* .galeri h5 {
-      text-transform: capitalize;
-      font-weight: bold;
-    } */
-
     .galeri a img{
       width: 220px;
       height: 280px;
@@ -279,8 +215,6 @@ nav form{
     }
     .gallery1 {
       padding: 60px;
-      /*padding-bottom: 20px;*/
-      /* border: 1px solid; */
     }
     .gallery-cell {
       width: 220px;
@@ -302,93 +236,21 @@ nav form{
 }
 
 @media (min-width: 1001px) and (max-width: 1178px) {
-  
-  /* HALAMAN ATAS */
-    .halamanatas{
-      position:relative;
-      margin-left: 110px;
-    }
-  
-  /* ABOUT */
-    .about{
-      position:relative;
-      margin-left: 110px;
-    }
-  
-  /* PORTOFOLIO */
-    .portfolio{
-      position: relative;
-      margin-left: 110px;
-    }
-
-  /* GALERI */
-    .galeri{
-      position: relative;
-      margin-left: 110px;
-      margin-right: auto;
-    }
+ 
 }
 
 @media (min-width: 769px) and (max-width: 1000px){
 
-  /* HALAMAN ATAS */
-  .halamanatas{
-    position:relative;
-    margin-left: 85px;
-  }
-  
-  /* ABOUT */
-	.about{
-		position:relative;
-		margin-left: 85px;
-  }
-  
-  /* PORTOFOLIO */
-	.portfolio{
-		position: relative;
-		margin-left: 85px;
-  }
-  #myBtn-2{
-    margin-left: 35%;
-  }
-
-  /* GALERI */
-  .galeri{
-    position: relative;
-    margin-left: 85px;
-    margin-right: auto;
-  }
 }
 
 @media (min-width: 501px) and (max-width: 768px) {
   
-  /* HALAMAN ATAS */
-  .halamanatas{
-		position:relative;
-		margin-left: 70px;
-  }
-
-  /* ABOUT */
-    .about{
-      position:relative;
-      margin-left: 70px;
-    }
-
   /* PORTOFOLIO */
-    .portfolio{
-      position: relative;
-      margin-left: 70px;
-    }
     #myBtn-2{
       margin-left: 30%;
     }
 
   /* GALERI */
-    .galeri{
-      position: relative;
-      margin-left: 70px;
-      margin-right: auto;
-    }
     .galeri a img{
       position:relative;
       margin-left:5px;
@@ -397,8 +259,6 @@ nav form{
     .galeri img{
       width: 80px;
       height: 100px;
-      /* padding: 30px; */
-      /* border: 1px solid; */
     }
     .gallery1 {
       padding: 60px;
@@ -412,46 +272,38 @@ nav form{
 
 @media (max-width: 500px) {
   
+  .img-google img {
+    width: 150px;
+    padding: 10px;
+    padding-top: -40px;
+  }
+
   /* HALAMAN ATAS */
-    .halamanatas{
-      position: relative;
-      margin-left: 50px;
-    }
-    
+
   /* ABOUT */
-    .about{
-      position: relative;
-      margin-left: 50px;
-    }
     .about p{
       text-align: center;
     }
     h2.content-1-title {
       text-align: center;
+      margin-top: 0px;
+    }
+    #myBtn-1{
+      margin-left: 28%;
     }
 
   /* PORTOFOLIO */
-    .portfolio{
-      position: relative;
-      margin-left: 50px;
-    }
     .portfolio p {
       text-align: center;
     }
     h2.content-2-title {
       text-align: center;
     }
-
     #myBtn-2{
-      margin-left: 25%;
+      margin-left: 26%;
     }
   
   /* GALERI */
-    .galeri{
-      position: relative;
-      margin-left: 50px;
-      margin-right: auto;
-    }
     .galeri a img{
       position:relative;
       margin-left:5px;
@@ -461,8 +313,6 @@ nav form{
       width: 110px;
       height: 150px;
       background-color: white;
-      /* padding: 30px; */
-      /* border: 1px solid; */
     }
     .item1 {
       /* border: 1px solid; */
@@ -482,9 +332,8 @@ nav form{
       margin-top: 5px;
       margin-left: 5px;
       border: 3px solid white;
-      background-color: #6B9531;
+      background-color: #8AC361;
       color:white;
-      /* padding: 14px 28px; */
       font-size: 12px;
       font-weight: bold;
       cursor: pointer;
@@ -492,10 +341,6 @@ nav form{
     }
     .btn-beli:hover {
       background-color: white;
-      color:  #6B9531;
-    }
-    .gallery-cell {
-      /* width: 160px; */
-      /* height: 160px; */
+      color:  #8AC361;
     }
 }
