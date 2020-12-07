@@ -65,6 +65,7 @@ nav form{
   .halamanatas {
     background-color: #6B9531;
     min-height: 400px;
+    text-align: center;
   }
 
   h1.title {
@@ -184,12 +185,6 @@ nav form{
 
 
 @media (min-width: 1179px), print {
-<<<<<<< remotes/origin/ikhsan
-  .halamanatas{
-    position: relative;
-    margin-left: 150px;
-  }
-=======
   
   /* HALAMAN ATAS */
     .halamanatas{
@@ -247,7 +242,6 @@ nav form{
       text-transform: capitalize;
       font-weight: bold;
     } */
->>>>>>> local
 
     .galeri a img{
       width: 220px;
@@ -284,32 +278,6 @@ nav form{
     }
 }
 
-<<<<<<< remotes/origin/ikhsan
-  .galeri{
-    position: relative;
-    margin-left: 150px;
-  }
-  .galeri a img{
-    width: 100%;
-    height: 100%;
-    padding: 30px; 
-    border: 1px solid; 
-  }
-  .galeri img{
-    width: 100%;
-    height: 100%;
-    border: 1px solid; 
-  }
-  .gallery1 {
-    padding: 60px;
-    /*padding-bottom: 20px;*/
-    border: 1px solid;
-  }
-  .gallery2 {
-    padding: 60px;
-    /*padding-bottom: 20px;*/
-    border: 1px solid;
-=======
 @media (min-width: 1001px) and (max-width: 1178px) {
   
   /* HALAMAN ATAS */
@@ -344,7 +312,6 @@ nav form{
   .halamanatas{
     position:relative;
     margin-left: 85px;
->>>>>>> local
   }
   
   /* ABOUT */
