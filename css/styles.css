@@ -13,7 +13,7 @@ html{
 
 section{
 	width: 80%;
-	opacity: 0.9;
+	/* opacity: 0.9; */
 	margin: 0px;
 	background-color: black;
 }
@@ -109,12 +109,12 @@ nav form{
     border-radius: 10px;
     /* margin-left: 40%; */
   }
-  #myBtn{
+  #myBtn-1{
     margin-left: 40%;
     margin-bottom: 5%;
   }
 
-  #myBtnn{
+  #myBtn-2{
     margin-left: 40%;
     margin-bottom: 10%;
   }
@@ -348,7 +348,7 @@ nav form{
 		position: relative;
 		margin-left: 85px;
   }
-  #myBtnn{
+  #myBtn-2{
     margin-left: 35%;
   }
 
@@ -379,7 +379,7 @@ nav form{
       position: relative;
       margin-left: 70px;
     }
-    #myBtnn{
+    #myBtn-2{
       margin-left: 30%;
     }
 
@@ -442,7 +442,7 @@ nav form{
       text-align: center;
     }
 
-    #myBtnn{
+    #myBtn-2{
       margin-left: 25%;
     }
   
