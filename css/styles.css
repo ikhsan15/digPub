@@ -109,10 +109,14 @@ nav form{
     border-radius: 10px;
     /* margin-left: 40%; */
   }
+  #myBtn{
+    margin-left: 40%;
+    margin-bottom: 5%;
+  }
 
   #myBtnn{
     margin-left: 40%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
 
   .btn-content:hover {
@@ -216,6 +220,25 @@ nav form{
     }
     .about p {
       text-align: justify;
+    }
+
+    .about .col-sm-12 {
+      margin: 0px 50px 0px 90px;
+    }
+
+    p.content-p {
+    /* max-width: 870px; */
+    padding-right: 170px;
+    } 
+
+    .col-sm-12 img {
+      float: left;
+      margin-right: 20px;
+    }
+
+    #konten-2 {
+      padding-left: 100px;
+      padding-right: 100px;
     }
 
   /* PORTOFOLIO */
