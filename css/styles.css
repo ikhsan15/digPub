@@ -159,15 +159,9 @@ nav form{
   } */
 /* FINISH CONTENT 2 LANDING PAGE */
 
-<<<<<<< HEAD
-  .galeri{
-    min-height: 900px;
-  }
-=======
   /* .galeri{
     min-height: 900px;
   } */
->>>>>>> ikhsan
 
   footer{
     position: absolute;
@@ -191,120 +185,6 @@ nav form{
 
 
 @media (min-width: 1179px), print {
-<<<<<<< HEAD
-  /* BAGIAN HERO LANDING PAGE */
-  .halamanatas{
-    position: relative;
-    margin-left: 150px;
-    text-align: left;
-  }
-
-  h1.title {
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-left: 17%;
-    margin-top: 15%;
-    
-  }
-
-  p.sub-title {
-    margin-left: 18%;
-  }
-
-  .img-google img {
-    width: 150px;
-    margin-left: 18%;
-  }
-
-  img.play-books {
-    margin: 10px;
-  }
-
-  .about{
-    position: relative;
-    margin-left: 150px;
-  }
-  .about p {
-    text-align: justify;
-  }
-  .portfolio{
-    position: relative;
-    margin-left: 150px;
-  }
-  .portfolio p {
-    text-align: justify;
-  }
-
-  .galeri{
-    position: relative;
-    margin-left: 150px;
-    
-    
-  }
-
-  .galeri h2, h5 {
-    margin-top: 5%;
-    text-transform: capitalize;
-    font-weight: bold;
-  }
-
-  /* .galeri h5 {
-    text-transform: capitalize;
-    font-weight: bold;
-  } */
-
-  .galeri a img{
-    width: 100%;
-    height: 100%;
-    padding: 30px; 
-    border: 1px solid; 
-  }
-  .galeri img{
-    width: 100%;
-    height: 100%;
-    border: 1px solid; 
-  }
-  .gallery1 {
-    padding: 60px;
-    /*padding-bottom: 20px;*/
-    /* border: 1px solid; */
-  }
-  .gallery2 {
-    padding: 60px;
-    /*padding-bottom: 20px;*/
-    border: 1px solid;
-  }
-  .gallery-cell {
-    width: 20%;
-    background-color: #ffff;
-    height: 920px;
-    margin-right: 8px;
-  }
-  /* cell number */
-  .gallery-cell:before {
-    display: block;
-    text-align: center;
-    line-height: 10%;
-    height: 70px;
-  }
-  /* .galeri .gallery-cell{
-
-  } */
-  .gallery-cell img{
-    -webkit-filter: drop-shadow(5px 5px 5px #222 );
-    filter: drop-shadow(5px 5px 5px #222);
-  }
-}
-
-@media (min-width: 1001px) and (max-width: 1178px) {
-    .galeri{
-    position: relative;
-    margin-left: 110px;
-    margin-right: auto;
-  }
-}
-@media (min-width: 769px) and (max-width: 1000px){
-=======
   
   /* HALAMAN ATAS */
     .halamanatas{
@@ -450,7 +330,6 @@ nav form{
   }
 
   /* GALERI */
->>>>>>> ikhsan
   .galeri{
     position: relative;
     margin-left: 85px;
@@ -459,13 +338,6 @@ nav form{
 }
 
 @media (min-width: 501px) and (max-width: 768px) {
-<<<<<<< HEAD
-  .galeri{
-    position: relative;
-    margin-left: 70px;
-    margin-right: auto;
-  }
-=======
   
   /* HALAMAN ATAS */
   .halamanatas{
@@ -513,7 +385,6 @@ nav form{
       width: 80px;
       height: 120px;
     }
->>>>>>> ikhsan
 }
 
 @media (max-width: 500px) {
@@ -550,10 +421,6 @@ nav form{
 
     #myBtnn{
       margin-left: 25%;
-<<<<<<< HEAD
-      margin-bottom: 5%;
-=======
->>>>>>> ikhsan
     }
   
   /* GALERI */
@@ -568,29 +435,6 @@ nav form{
       padding:5px;
     }
     .galeri img{
-<<<<<<< HEAD
-      width: 80px;
-      height: 100px;
-  /*     padding: 30px; */
-  /*     border: 1px solid; */
-    }
-    .gallery1 {
-      padding: 60px;
-  /*     padding-bottom: 20px; */
-  /*     border: 1px solid; */
-      padding:5px;
-    }
-    .gallery2 {
-      padding: 60px;
-      /*padding-bottom: 20px;*/
-      border: 1px solid;
-    }
-    .gallery-cell {
-      width: 80px;
-  /*     background-color: #ffff; */
-      height: 120px;
-      /* margin-right: 8px; */
-=======
       width: 110px;
       height: 150px;
       background-color: white;
@@ -630,6 +474,5 @@ nav form{
     .gallery-cell {
       /* width: 160px; */
       /* height: 160px; */
->>>>>>> ikhsan
     }
 }
