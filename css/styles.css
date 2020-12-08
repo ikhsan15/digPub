@@ -160,7 +160,7 @@ nav form{
     text-transform: capitalize;
     font-weight: bold;
   }
-  .galeri a img{
+  .gallery-cell img{
     width: 220px;
     height: 280px;
     padding: 30px; 
@@ -208,11 +208,11 @@ nav form{
     padding-bottom: 2%;
   }
   #myBtn-3{
-    margin-left: 40%;
+    margin-left: 41.9%;
     margin-bottom: 5%;
   }
-  .btn-beli{
-    height: 30px;
+  #btn-beli{
+    height: 35px;
     width: 90%;
     margin-top: 5px;
     margin-left: 3.5%;
@@ -224,7 +224,7 @@ nav form{
     cursor: pointer;
     border-radius: 10px;
   }
-  .btn-beli:hover {
+  #btn-beli:hover {
     background-color: white;
     color:  #8AC361;
   }
@@ -236,13 +236,24 @@ nav form{
   #more-2 {display: none;}
   #more-3 {display: none;}
 
+  /* Tool Tip Bagian Galeri*/
+    .tooltip-inner {
+      background-color: #fff;
+      color: Black;
+      box-shadow: 0px 10px 50px grey;
+    }
+    .tooltip.bs-tooltip-right .arrow:before {
+      border-right-color: #fff !important;
+    }
+  /* End ToolTip */
+
   /*css slide show*/
   /* external css: flickity.css */
 
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
 
 @media (min-width: 1179px), print {
@@ -250,7 +261,9 @@ nav form{
 }
 
 @media (min-width: 1001px) and (max-width: 1178px) {
-
+ #myBtn-3{
+      margin-left: 38%;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1000px){
@@ -265,7 +278,10 @@ nav form{
     p.content-p {
       font-size: 18px;
       padding-right: 90px;
-    } 
+    }
+    #myBtn-3{
+      margin-left: 38%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -311,7 +327,7 @@ nav form{
 
   /* GALERI */
     #myBtn-3{
-      margin-left: 32%;
+      margin-left: 34%;
     }
     
 }
@@ -393,7 +409,7 @@ nav form{
     }
   
   /* GALERI */
-    .galeri a img{
+    .gallery-cell img{
       position:relative;
       margin-left:5px;
       padding:5px;
@@ -406,7 +422,7 @@ nav form{
       padding:5px;
     }
     #myBtn-3{
-      margin-left:25%;
+      margin-left:20%;
     }
   
 }
@@ -494,7 +510,7 @@ nav form{
     #penulis{
       padding-bottom:5px;
     }
-    .galeri a img{
+    .gallery-cell img{
       position:relative;
       margin-left:5px;
       padding:5px;
@@ -508,6 +524,9 @@ nav form{
     }
     #myBtn-3{
       margin-left:15%;
+    }
+    #galeri h2{
+      font-size: 28px;
     }
 
 }
