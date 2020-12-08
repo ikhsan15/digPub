@@ -108,20 +108,16 @@ nav form{
     border-radius: 10px;
   }
   #myBtn-1{
-    margin-left: 40%;
-    margin-bottom: 5%;
-  }
-  #myBtn-2{
-    margin-left: 40%;
-    margin-bottom: 10%;
-  }
-  #myBtn-3{
-    margin-left: 40%;
+    margin-left: 42%;
     margin-bottom: 5%;
   }
   .btn-content:hover {
     background-color: #6B9531;
     color: white;
+  }
+  .col-sm-12 img {
+    float: left;
+    margin-right: 20px;
   }
   
 /* FINISH CONTENT 1 LANDING PAGE */
@@ -147,6 +143,10 @@ nav form{
   #konten-2 {
     padding-left: 10%;
     padding-right: 10%;
+  }
+  #myBtn-2{
+    margin-left: 40%;
+    margin-bottom: 10%;
   }
 
 /* FINISH CONTENT 2 LANDING PAGE */
@@ -189,18 +189,27 @@ nav form{
     -webkit-filter: drop-shadow(5px 5px 5px #222 );
     filter: drop-shadow(5px 5px 5px #222);
   }
-  .col-sm-12 img {
-    float: left;
-    margin-right: 20px;
-  }
-  .item1 h6{
-    width:95.5%;
+  .item1 p{
+    width:96%;
     background-color: white;
     color: #6B9531;
     font-size: 12px;
     padding-top: 3px;
-    padding-left:3px;
-    padding-bottom: 10px;
+    padding-left: 3px;
+  }
+  #penulis{
+    padding-bottom:10px;
+  }
+  #judul{
+    font-weight: bold;
+    font-size:17px;
+    margin-top: -15%;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+  }
+  #myBtn-3{
+    margin-left: 40%;
+    margin-bottom: 5%;
   }
   .btn-beli{
     height: 30px;
@@ -379,20 +388,23 @@ nav form{
       padding-left: 5%;
       padding-right: 5%;
     }
+    #penulis{
+      padding-bottom: 3%;
+    }
   
   /* GALERI */
-  .galeri a img{
-    position:relative;
-    margin-left:5px;
-    padding:5px;
-    width:150px;
-    height:200px
-  }
-  .gallery-cell {
-    width: 170px;
-    height: 220px;
-    padding:5px;
-  }
+    .galeri a img{
+      position:relative;
+      margin-left:5px;
+      padding:5px;
+      width:150px;
+      height:200px
+    }
+    .gallery-cell {
+      width: 170px;
+      height: 220px;
+      padding:5px;
+    }
     #myBtn-3{
       margin-left:25%;
     }
@@ -479,20 +491,23 @@ nav form{
     }
   
   /* GALERI */
-  .galeri a img{
-    position:relative;
-    margin-left:5px;
-    padding:5px;
-    width:150px;
-    height:200px
-  }
-  .gallery-cell {
-    width: 170px;
-    height: 220px;
-    padding:5px;
-  }
-  #myBtn-3{
-    margin-left:15%;
-  }
+    #penulis{
+      padding-bottom:5px;
+    }
+    .galeri a img{
+      position:relative;
+      margin-left:5px;
+      padding:5px;
+      width:150px;
+      height:200px
+    }
+    .gallery-cell {
+      width: 170px;
+      height: 220px;
+      padding:5px;
+    }
+    #myBtn-3{
+      margin-left:15%;
+    }
 
 }
