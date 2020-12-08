@@ -116,7 +116,7 @@ nav form{
     margin-bottom: 10%;
   }
   #myBtn-3{
-    margin-left: 42%;
+    margin-left: 40%;
     margin-bottom: 5%;
   }
   .btn-content:hover {
@@ -206,7 +206,7 @@ nav form{
     height: 30px;
     width: 90%;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 3.5%;
     border: 3px solid white;
     background-color: #8AC361;
     color:white;
@@ -301,11 +301,14 @@ nav form{
     }
 
   /* GALERI */
+    #myBtn-3{
+      margin-left: 32%;
+    }
     
 }
 
-@media (max-width: 575px) {
-  
+@media (min-width: 421px ) and (max-width: 575px) {
+
   /* HALAMAN ATAS */
     h1.title {
       margin-left: 1%;
@@ -324,7 +327,8 @@ nav form{
       width:130px;
       height:45px;
     }
-    .img-google{margin:auto;
+    .img-google{
+      margin:auto;
     }
 
   /* ABOUT */
@@ -352,6 +356,7 @@ nav form{
     img.img-mockup {
       width: 90px;
       margin-top: 50px;
+      margin-left: 5%
     }
     .col-sm-12 img {
       float: none;
@@ -388,5 +393,106 @@ nav form{
     height: 220px;
     padding:5px;
   }
+    #myBtn-3{
+      margin-left:25%;
+    }
   
+}
+
+@media (max-width: 420px) {
+    
+    /* HALAMAN ATAS */
+    h1.title {
+      margin-left: 1%;
+      margin-top: 10%;
+      font-size: 30px;
+    }
+    p.sub-title {
+      margin-left: 1%;
+    }
+    #g-p{
+      margin-left: 1%;
+      width:130px;
+      height:45px;
+    }
+    #g-p-book {
+      width:130px;
+      height:45px;
+    }
+    .img-google{
+      margin:auto;
+    }
+
+  /* ABOUT */
+    .about{
+      position: relative;
+      margin-top: -120px;
+    }
+    .about p{
+      text-align: center;
+    }
+    h2.content-1-title {
+      text-align: center;
+      margin-top: 0px;
+    }
+    #myBtn-1{
+      margin-left: 24%;
+      width:150px;
+      height:50px;
+      font-size:15px;
+      padding: 0px;
+    }
+    p.content-p {
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+    .about .col-sm-12 {
+      margin: 0px 10px 0px 10px;
+    }
+    img.img-mockup {
+      width: 90px;
+      margin-top: 50px;
+      margin-left: 5%
+    }
+    .col-sm-12 img {
+      float: none;
+    }
+
+  /* PORTOFOLIO */
+    .portfolio p {
+      text-align: center;
+    }
+    h2.content-2-title {
+      text-align: center;
+    }
+    
+      #myBtn-2{
+      margin-left: 24%;
+      width:150px;
+      height:50px;
+      font-size:15px;
+      padding: 0px;
+    }
+    #konten-2 {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+  /* GALERI */
+  .galeri a img{
+    position:relative;
+    margin-left:5px;
+    padding:5px;
+    width:150px;
+    height:200px
+  }
+  .gallery-cell {
+    width: 170px;
+    height: 220px;
+    padding:5px;
+  }
+  #myBtn-3{
+    margin-left:15%;
+  }
+
 }
