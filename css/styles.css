@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	background-image: url(../img/baground1.jpg);
+	 margin-top: 100px;
+
+}
+html{
+	position: relative;
+}
+
+section{
+	width: 80%;
+	margin: 0px;
+}
+ 
+hr{
+	width: 200px;
+}
+nav  {
+	position: fixed;
+}
+
+nav a img{
+	height: 40px;
+	margin-left: 150px;
+}
+
+nav form{
+	margin-right: 10px; 
+	width: 50%;
+}
+
+.menu ul{
+    position:relative;
+	margin-left: 250px;
+	} 
+
+.menu ul li{
+	 display: inline;
+	 font-size: 20px;
+	 margin-right: 30px;
+	 font-size: 15px;
+	 line-height: 15px; 
+
+}
+
+  .halamanatas{
+  	background-color: #eee;
+	height: 540px;
+ 	min-height: 200px;
+ 	opacity: 0.9;
+ }
+ .halamanatas h1{
+ 	margin-top: 250px;
+
+ }
+ 
+.halamanatas img{
+	 border-radius: 5px;
+	margin-left: 10px; 
+	font-size: 20px;
+	height: 50px;
+	
+}
+@media (min-width: 1179px){.halamanatas .ats img{
+	height: 400px;
+	margin-top: 200px;
+	z-index: 1;
+	width: 250px;
+}}
+.about{
+	background-color: #eee;
+	position: relative;
+
+}
+.about img{
+	height: 300px;
+	width: 200px;
+}
+
+.portfolio{
+	background-color: #eee;
+	opacity: 0.9;
+ 
+}
+.portfolio h1{
+	margin-top: 50px;
+}
+.portfolio p{
+	min-height: 100px;
+
+}
+
+
+footer{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-color: #aaa;
+	padding-top: 30px;
+}
+#more {display: none;}
+#moree {display: none;}
+
+/*css slide show*/
+ /* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+ .gallery {
+	padding: 60px;
+  	/*padding-bottom: 20px;*/
+  	 
+    }
+ .galleryy {
+	padding: 60px;
+  	/*padding-bottom: 20px;*/
+   
+    }
+
+ .galeri .item{
+ 	width: 220px;
+ 	height: 350px;
+ 	 
+ 	}
+
+ .item{  	 
+	width: 90px;
+	height: 400px;
+	 
+    }
+
+.item .gallery-cell{
+	margin-top:20px; 
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	
+}
+
+.item h6{
+	margin-top: 10px;
+	height: 30px;
+	border: 1px solid;
+	width: 92%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	border-radius: 90px;
+}
+
+.item b{
+	margin-left: 10px;
+}
+.item .pr{
+	height: 50px;
+	width: 200px;
+	background-color: white;
+	color: black;
+	text-align: left;
+}
+
+.item .pr small{
+	margin-left: 10px;
+}
+
+/*Batas item*/
+.galeri .item1{
+ 	width: 220px;
+ 	height: 350px;
+ 	 
+ 	}
+
+.item1{  	 
+	width: 90px;
+	height: 400px;
+	 
+    }
+
+ .gallery-cell {
+ 	height: 300px;
+ 	width: 200px;
+
+ }
+
+.gallery-cell img{
+	height: 70px;
+}
+.item1 h6{
+	margin-top: 10px;
+	height: 30px;
+	border: 1px solid;
+	width: 93%;
+	text-align: center;
+	color: white;
+	border-radius: 90px;
+}
+
+.item1 .pr{
+	height: 50px;
+	width: 200px;
+	background-color: white;
+	color: black;
+	text-align: left;
+}
+
+.item1 .pr small{
+	margin-left: 10px;
+}
+.item1 b{
+	margin-left: 10px;
+}
+
+gallery-cell {
+  width: 20%;
+  background-color: #ffff;
+  height: 220px;
+  margin-right: 8px;
+  }
+.item1 .gallery-cell{
+	margin-top:20px; 
+	 
+	width: 200px;
+	height: 200px;
+
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 10%;
+  height: 70px;
+ }
+
+ 
+ .galeri  a img{
+ 	width: 100%;
+ 	height: 100%;
+	padding: 30px; 
+	 
+}
+
+
+.galeri img{
+ 	width: 100%;
+ 	height: 100%;
+	 
+}
+ 
+.gallery-cell img{
+	-webkit-filter: drop-shadow(5px 5px 5px #222 );
+  	filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+
+
+/*Batas css slide show*/
+/*text hover*/
+.tooltip-ex { /* Container for our tooltip */
+ position: relative;
+ display: inline-block;
+ cursor: help;
+ color: #8512d5;
+ margin-right: 20px;
+ display: inline-block;
+ float: left;
+}
+
+.tooltip-ex-top {
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip-ex-text {
+ visibility: hidden;
+ position: absolute;
+ width: 220px;
+ height: 220px;
+ background-color: #555;
+ color: #fff;
+ text-align: center;
+ padding: 5px 0;
+ border-radius: 6px;
+ z-index: 1;
+ opacity: 0;
+ transition: opacity .6s;
+}
+
+.tooltip-ex:hover .tooltip-ex-text { /* Makes tooltip visible when hovered on */
+ visibility: visible;
+ opacity: 1;
+}
+/*Batas text hover*/
