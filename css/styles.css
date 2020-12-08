@@ -198,6 +198,7 @@ nav form{
     padding-left: 3px;
   }
   #penulis{
+    color: black;
     padding-bottom:10px;
   }
   #judul{
@@ -206,6 +207,7 @@ nav form{
     margin-top: -15%;
     margin-bottom: 5%;
     padding-bottom: 2%;
+    color:black;
   }
   #myBtn-3{
     margin-left: 41.9%;
