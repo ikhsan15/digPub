@@ -7,12 +7,12 @@ body{
   background-size: contain;
 }
 html{
-  position: relative;
+	position: relative;
 }
 section{
   margin: auto;
   width: 80%;
-  background-color: black;
+	background-color: black;
 }
 hr{
 	width: 200px;
@@ -26,21 +26,12 @@ nav a img{
 	margin-left: 150px;
 }
 nav form{
-<<<<<<< HEAD
 	margin-right: 10px; 
 	width: 50%;
 }
 .menu ul{
   position:relative;  
 	margin-left: 250px;
-=======
- margin-right: 10px;
- width: 50%;
-}
-.menu ul{
-  position:relative;
-  margin-left: 250px;
->>>>>>> 009612e882d92d84c9d0ec4b31981728371a5484
 }
 .menu ul li{
   display: inline;
@@ -50,19 +41,6 @@ nav form{
   line-height: 15px; 
 }
 
-<<<<<<< HEAD
-=======
-/* Tool Tip Bagian Galeri*/
-.tooltip-inner {
-    background-color: #fff;
-    color: Black;
-    box-shadow: 0px 10px 50px grey;
-}
-.tooltip.bs-tooltip-right .arrow:before {
-    border-right-color: #fff !important;
-}
-/* End ToolTip */
->>>>>>> 009612e882d92d84c9d0ec4b31981728371a5484
 
 /* BAGIAN HERO LANDING PAGE */
   .halamanatas {
