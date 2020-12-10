@@ -51,7 +51,6 @@ nav form{
   h1.title {
     text-transform: uppercase;
     font-weight: bold;
-/*     margin-top:10%; */
     margin-left: 17%;
     margin-top: 15%;
   }
@@ -97,7 +96,7 @@ nav form{
     margin-top: 50px;
     width: 110px;
   }
-  .btn-content {
+  .btn-content-1, .btn-content-2, .btn-content-3 {
     outline: none !important;
     border: 2px solid #6B9531;
     background-color: white;
@@ -106,15 +105,18 @@ nav form{
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
+    width: 200px;
+    text-align:center;
   }
-  #myBtn-1{
-    margin-left: 42%;
-    margin-bottom: 5%;
-  }
-  .btn-content:hover {
+  .btn-content-1:hover, .btn-content-2:hover, .btn-content-3:hover {
     background-color: #6B9531;
     color: white;
   }
+  #myBtn-1{
+    margin-left: 33.2%;
+    margin-bottom: 5%;
+  }
+  
   .col-sm-12 img {
     float: left;
     margin-right: 20px;
@@ -123,12 +125,13 @@ nav form{
 /* FINISH CONTENT 1 LANDING PAGE */
 
 /* BAGIAN CONTENT 2 LANDING PAGE */
-  .portfolio {
+  .portofolio {
     padding-top: 40px;
     background-color: white;
     color: #6B9531;
+    padding-bottom:5px;
   }
-  .portfolio h1 {
+  .portofolio h1 {
     margin-top: 50px;
   }
   h2.content-2-title {
@@ -136,16 +139,17 @@ nav form{
     font-weight: bold;
     text-transform: capitalize;
     text-align: left;
-  }
-  .portfolio p {
-    text-align: justify;
-  }
-  #konten-2 {
     padding-left: 10%;
     padding-right: 10%;
   }
+  .portofolio p {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
   #myBtn-2{
-    margin-left: 40%;
+    margin-left: 42%;
     margin-bottom: 10%;
   }
 
@@ -154,6 +158,7 @@ nav form{
 /* BAGIAN CONTENT 3 LANDING PAGE */
   .galeri{
     background-color: hsla(89, 43%, 51%, 0.9);
+    padding-bottom:5%;
   }
   .galeri h2, h5 {
     margin-top: 5%;
@@ -167,7 +172,6 @@ nav form{
     /* border: 1px solid;  */
   }
   .gallery1 {
-    /* padding: 60px; */
     padding-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
@@ -210,8 +214,8 @@ nav form{
     color:black;
   }
   #myBtn-3{
-    margin-left: 41.9%;
-    margin-bottom: 5%;
+    margin-left: 41%;
+    margin-top:3%;
   }
   #btn-beli{
     height: 35px;
@@ -263,6 +267,9 @@ nav form{
 }
 
 @media (min-width: 1001px) and (max-width: 1178px) {
+  #myBtn-1{
+      margin-left: 29.5%;
+    }
  #myBtn-3{
       margin-left: 38%;
     }
@@ -319,12 +326,12 @@ nav form{
       padding-right: 40px;
     }
     #myBtn-1{
-      margin-left: 34%;
+      margin-left: 30%;
     }
 
   /* PORTOFOLIO */
     #myBtn-2{
-      margin-left: 30%;
+      margin-left: 34%;
     }
 
   /* GALERI */
@@ -371,7 +378,7 @@ nav form{
       margin-top: 0px;
     }
     #myBtn-1{
-      margin-left: 28%;
+      margin-left: 13%;
     }
     p.content-p {
       padding-left: 3%;
@@ -390,7 +397,7 @@ nav form{
     }
 
   /* PORTOFOLIO */
-    .portfolio p {
+    .portofolio p {
       text-align: center;
     }
     h2.content-2-title {
@@ -399,12 +406,8 @@ nav form{
     #myBtn-2{
       /* width: 60%; */
       margin: auto;
-      margin-left: 26%;
+      margin-left: 18%;
       margin-bottom: 15%;
-    }
-    #konten-2 {
-      padding-left: 5%;
-      padding-right: 5%;
     }
     #penulis{
       padding-bottom: 3%;
@@ -429,7 +432,7 @@ nav form{
   
 }
 
-@media (max-width: 420px) {
+@media (min-width:321px) and (max-width: 420px) {
     
     /* HALAMAN ATAS */
     h1.title {
@@ -466,11 +469,12 @@ nav form{
       margin-top: 0px;
     }
     #myBtn-1{
-      margin-left: 24%;
+      margin-left: 17%;
       width:150px;
       height:50px;
       font-size:15px;
-      padding: 0px;
+      padding: 10px;
+
     }
     p.content-p {
       padding-left: 3%;
@@ -489,7 +493,7 @@ nav form{
     }
 
   /* PORTOFOLIO */
-    .portfolio p {
+    .portofolio p {
       text-align: center;
     }
     h2.content-2-title {
@@ -501,12 +505,8 @@ nav form{
       width:150px;
       height:50px;
       font-size:15px;
-      padding: 0px;
-    }
-    #konten-2 {
-      padding-left: 5%;
-      padding-right: 5%;
-    }
+      padding: 10px;
+      }
   
   /* GALERI */
     #penulis{
@@ -532,3 +532,109 @@ nav form{
     }
 
 }
+
+@media (max-width:320px) {
+
+   /* HALAMAN ATAS */
+    h1.title {
+      margin-left: 1%;
+      margin-top: 10%;
+      font-size: 30px;
+    }
+    p.sub-title {
+      margin-left: 1%;
+    }
+    #g-p{
+      margin-left: 1%;
+      width:130px;
+      height:45px;
+    }
+    #g-p-book {
+      width:130px;
+      height:45px;
+    }
+    .img-google{
+      margin:auto;
+    }
+
+  /* ABOUT */
+    .about{
+      position: relative;
+      margin-top: -120px;
+    }
+    p.content-p {
+    padding-right: 0px;
+    margin-left:0%;
+  } 
+    .about p{
+      text-align: center;
+    }
+    h2.content-1-title {
+      text-align: center;
+      margin-top: 0px;
+    }
+    .about .col-sm-12 {
+      margin: 0px 10px 0px 10px;
+    } 
+    img.img-mockup {
+      margin-top: 50px;
+      width: 110px;
+      margin-left:15%
+    }
+    #myBtn-1{
+      margin-left: 8%;
+      width:150px;
+      height:50px;
+      font-size:15px;
+      padding: 10px;
+
+    }
+    img.img-mockup {
+      width: 90px;
+/*       margin-top: 50px; */
+/*       margin-left: 5% */
+    }
+    .col-sm-12 img {
+      float: none;
+    }
+
+  /* PORTOFOLIO */
+    .portofolio p {
+      text-align: center;
+    }
+    h2.content-2-title {
+      text-align: center;
+    }
+    
+      #myBtn-2{
+      margin-left: 18%;
+      width:150px;
+      height:50px;
+      font-size:15px;
+      padding: 10px;
+    }
+  
+  /* GALERI */
+    #penulis{
+      padding-bottom:5px;
+    }
+    .gallery-cell img{
+      position:relative;
+      margin-left:5px;
+      padding:5px;
+      width:150px;
+      height:200px
+    }
+    .gallery-cell {
+      width: 170px;
+      height: 220px;
+      padding:5px;
+    }
+    #myBtn-3{
+      margin-left:7%;
+    }
+    #galeri h2{
+      font-size: 28px;
+    }
+
+}  
