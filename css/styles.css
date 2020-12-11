@@ -142,11 +142,13 @@ nav form{
     padding-left: 10%;
     padding-right: 10%;
   }
-  .portofolio p {
+  .portofolio p, ol {
+    font-size:18px;
     text-align: justify;
     padding-left: 10%;
     padding-right: 10%;
   }
+  
   
   #myBtn-2{
     margin-left: 42%;
@@ -397,7 +399,7 @@ nav form{
     }
 
   /* PORTOFOLIO */
-    .portofolio p {
+    .portofolio p, ol {
       text-align: center;
     }
     h2.content-2-title {
@@ -493,7 +495,7 @@ nav form{
     }
 
   /* PORTOFOLIO */
-    .portofolio p {
+    .portofolio p, ol {
       text-align: center;
     }
     h2.content-2-title {
@@ -599,7 +601,7 @@ nav form{
     }
 
   /* PORTOFOLIO */
-    .portofolio p {
+    .portofolio p, ol {
       text-align: center;
     }
     h2.content-2-title {
