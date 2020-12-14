@@ -418,9 +418,12 @@ nav form{
     #penulis{
       padding-bottom: 3%;
     }
+<<<<<<< HEAD
     #k-khusus, #f-naskah, #f-pengiriman{
       text-align:left;
     }
+=======
+>>>>>>> eb9fad687b209fe0106979be38e78942ea7d8750
 
   /* GALERI */
     .gallery-cell img{
@@ -510,7 +513,7 @@ nav form{
     h2.content-2-title {
       text-align: center;
     }
-    
+
       #myBtn-2{
       margin-left: 24%;
       width:150px;
@@ -518,9 +521,12 @@ nav form{
       font-size:15px;
       padding: 10px;
       }
+<<<<<<< HEAD
     #k-khusus, #f-naskah, #f-pengiriman{
       text-align:left;
     }
+=======
+>>>>>>> eb9fad687b209fe0106979be38e78942ea7d8750
 
   /* GALERI */
     #penulis{
@@ -577,9 +583,15 @@ nav form{
       margin-top: -120px;
     }
     p.content-p {
+<<<<<<< HEAD
       padding-right: 0px;
       margin-left:0%;
     } 
+=======
+    padding-right: 0px;
+    margin-left:0%;
+  }
+>>>>>>> eb9fad687b209fe0106979be38e78942ea7d8750
     .about p{
       text-align: center;
       font-size:15;
@@ -590,7 +602,7 @@ nav form{
     }
     .about .col-sm-12 {
       margin: 0px 10px 0px 10px;
-    } 
+    }
     img.img-mockup {
       margin-top: 50px;
       width: 110px;
@@ -621,7 +633,7 @@ nav form{
     h2.content-2-title {
       text-align: center;
     }
-    
+
       #myBtn-2{
       margin-left: 18%;
       width:150px;
@@ -629,9 +641,12 @@ nav form{
       font-size:15px;
       padding: 10px;
     }
+<<<<<<< HEAD
     #k-khusus, #f-naskah, #f-pengiriman{
       text-align:left;
     }
+=======
+>>>>>>> eb9fad687b209fe0106979be38e78942ea7d8750
 
   /* GALERI */
     #penulis{
