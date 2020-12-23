@@ -61,6 +61,17 @@
     />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
+    <!-- SWIPER -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      />
+
+      <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- SWIPER -->
+
     <title></title>
   </head>
 
@@ -2966,7 +2977,7 @@
                     data-html="true"
                     title=" <b>Thibbun Nabawi</b>
                     </br>
-                      Sebagian kalangan merendahkan thibbun nabawi. Namun, seba-gian yang lain terlalu berlebih-lebihan hingga mengagung-agungkan thibbun nabawi. Bahkan, ada yang beranggapan bahwa pengobat-an selain thibbun nabawi adalah pengobatan yang salah, berbahaya, atau haram ditempuh.
+                      Sebagian kalangan merendahkan thibbun nabawi. Namun, sebagian yang lain terlalu berlebih-lebihan hingga mengagung-agungkan thibbun nabawi. Bahkan, ada yang beranggapan bahwa pengobat-an selain thibbun nabawi adalah pengobatan yang salah, berbahaya, atau haram ditempuh.
                     "
                   />
                 </a>
@@ -3498,7 +3509,7 @@
           <h5>Koleksi Lainnya</h5>
           <div
             class="gallery1 js-flickity"
-            data-flickity-options='{ "wrapAround": true, "pageDots": false  }'
+            data-flickity-options='{ "wrapAround": true, "pageDots": false, "autoPlay": 1500 }'
           >
             <!-- Hari-Hari Mencari Cinta -->
             <div class="item1">
@@ -3647,41 +3658,19 @@
         </div>
 
         
-        <div class="akhir-3">
-          <h5>TOP 10 Best Seller</h5>
-          <div
-            class="gallery1 js-flickity"
-            data-flickity-options='{ "wrapAround": true, "pageDots": false  }'
-          >
+        <!-- <div class="akhir-3"> -->
           
-            <div class="item1">
-              <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
-              <div class="gallery-cell">
-                <a>
-                  <img
-                    src="img/PribadiHebat.jpg"
-                    data-toggle="tooltip"
-                    data-placement="right"
-                    data-html="true"
-                    title=" <b>Pribadi Hebat</b> </br> Ini dia Pribadi Hebat"
-                  />
-                </a>
-              </div>
-              <a
-                href="#"
-                class="btn"
-                id="btn-beli"
-                role="button"
-                aria-pressed="true"
-                >BELI</a
-              >
-            </div>
+          <!-- <h5>Koleksi Kesehatan</h5> -->
+          <!-- <div class="gallery1" > -->
 
-          </div>
-          <br />
-        </div>
-        <div class="btn-content-3" id="myBtn-3">Lebih Lengkap</div>
+            
+          <!-- </div> -->
+          <!-- <br /> -->
+
+        <!-- </div> -->
+        <!-- <div class="btn-content-3" id="myBtn-3">Lebih Lengkap</div> -->
+
+
         <!-- </span> -->
         <!-- <button class="btn-content" onclick="myFunction3()" id="myBtn-3">
           Lebih Lengkap
@@ -3739,102 +3728,74 @@
     type="text/javascript"
   ></script>
   <!-- Batas slide -->
-
-  <!-- OLD - read more & read less -->
-  <!-- <script type="text/javascript">
-      function myFunction1() {
-        var dots = document.getElementById("dots-1");
-        var moreText = document.getElementById("more-1");
-        var btnText = document.getElementById("myBtn-1");
-
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Lebih Lengkap";
-          moreText.style.display = "none";
-        } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Lebih Singkat";
-          moreText.style.display = "inline";
-        }
-      }
-    </script> -->
-  <!-- <script type="text/javascript">
-      function myFunction2() {
-        var dots = document.getElementById("dots-2");
-        var moreText = document.getElementById("more-2");
-        var btnText = document.getElementById("myBtn-2");
-
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Lebih Lengkap";
-          moreText.style.display = "none";
-        } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Lebih Singkat";
-          moreText.style.display = "inline";
-        }
-      }
-    </script> -->
-  <!-- <script type="text/javascript">
-      function myFunction3() {
-        var dots = document.getElementById("dots-3");
-        var moreText = document.getElementById("more-3");
-        var btnText = document.getElementById("myBtn-3");
-
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Lebih Lengkap";
-          moreText.style.display = "none";
-        } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Lebih Singkat";
-          moreText.style.display = "inline";
-        }
-      }
-    </script> -->
-  <!-- OLD - read more & read less -->
-  <script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip();
-    });
-  </script>
+  
+  <!-- TOOLTIP -->
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  <!-- TOOLTIP -->
   <!-- read more & read less -->
-
-  <script>
-    $(".akhir-1").hide();
-    $(".btn-content-1").click(function () {
-      if ($(this).hasClass("active")) {
-        $(this).html("Lebih Lengkap").removeClass("active");
-        $(this).prev(".akhir-1").slideUp();
-      } else {
-        $(this).html("Lebih Singkat").addClass("active");
-        $(this).prev(".akhir-1").slideDown();
-      }
-    });
-  </script>
-  <script>
-    $(".akhir-2").hide();
-    $(".btn-content-2").click(function () {
-      if ($(this).hasClass("active")) {
-        $(this).html("Lebih Lengkap").removeClass("active");
-        $(this).prev(".akhir-2").slideUp();
-      } else {
-        $(this).html("Lebih Singkat").addClass("active");
-        $(this).prev(".akhir-2").slideDown();
-      }
-    });
-  </script>
-  <script>
-    $(".akhir-3").hide();
-    $(".btn-content-3").click(function () {
-      if ($(this).hasClass("active")) {
-        $(this).html("Lebih Lengkap").removeClass("active");
-        $(this).prev(".akhir-3").slideUp();
-      } else {
-        $(this).html("Lebih Singkat").addClass("active");
-        $(this).prev(".akhir-3").slideDown();
-      }
-    });
-  </script>
+    <script>
+      $(".akhir-1").hide();
+      $(".btn-content-1").click(function () {
+        if ($(this).hasClass("active")) {
+          $(this).html("Lebih Lengkap").removeClass("active");
+          $(this).prev(".akhir-1").slideUp();
+        } else {
+          $(this).html("Lebih Singkat").addClass("active");
+          $(this).prev(".akhir-1").slideDown();
+        }
+      });
+    </script>
+    <script>
+      $(".akhir-2").hide();
+      $(".btn-content-2").click(function () {
+        if ($(this).hasClass("active")) {
+          $(this).html("Lebih Lengkap").removeClass("active");
+          $(this).prev(".akhir-2").slideUp();
+        } else {
+          $(this).html("Lebih Singkat").addClass("active");
+          $(this).prev(".akhir-2").slideDown();
+        }
+      });
+    </script>
+    <script>
+      $(".akhir-3").hide();
+      $(".btn-content-3").click(function () {
+        if ($(this).hasClass("active")) {
+          $(this).html("Lebih Lengkap").removeClass("active");
+          $(this).prev(".akhir-3").slideUp();
+        } else {
+          $(this).html("Lebih Singkat").addClass("active");
+          $(this).prev(".akhir-3").slideDown();
+        }
+      });
+    </script>
   <!-- read more & read less -->
+  
+  <!-- Swiper JS -->
+  <!-- <script src="../asset/swiper-bundle.min.js"></script> -->
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      // slidesPerView: 5,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      freeMode: true,
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
 </html>
