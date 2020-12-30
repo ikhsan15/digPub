@@ -151,8 +151,8 @@
             <p class="sub-title">Penyedia E-book islami</p>
             <br />
             <div class="img-google">
-              <img src="./img/Google-Play.png" id="g-p" />
-              <img src="img/Google-Play-Books.png" id="g-p-book" />
+              <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.books" target="_blank"> <img src="./img/Google-Play.png" id="g-p" /> </a>
+              <a href="https://play.google.com/store/search?q=gema%20insani&c=books" target="_blank"> <img src="img/Google-Play-Books.png" id="g-p-book" /> </a>
             </div>
           </div>
           <div class="col-sm-3">
@@ -233,8 +233,10 @@
           </h2>
           <p>
             Gema Insani Digital Publishing menerima pengiriman naskah baru yang nanti akan diterbitkan dalam bentuk buku digital (ebook atau audiobook). Cara dan kriteria naskah Gema Insani Digital Publishing sebagai berikut.
-            <br><br><b> KITERIA SECARA UMUM: </b>
-            <br> naskah tidak bertentangan dengan aqidah ahlus sunnah wal jamaah dan dapat menginspirasi serta menjadi penggerak kebaikan dan kemajuan umat Islam.
+          </p>
+          <p><b> KRITERIA SECARA UMUM: </b></p>
+          <p id="k-umum">
+            Naskah tidak bertentangan dengan aqidah ahlus sunnah wal jamaah dan dapat menginspirasi serta menjadi penggerak kebaikan dan kemajuan umat Islam.
           </p>
         </div>
         <div class="akhir-2">
@@ -242,17 +244,17 @@
             <!-- <span id="dots-2">...</span>
             <span id="more-2"> -->
               <b> KRITERIA KHUSUS: </b>
-              <ol>
+              <ol id="k-khusus">
                 <li>
                  <b> Segmentasi Umum (terbit dalam bentuk ebook/audiobook) </b>
                   <br><b> Tema: </b> aqidah, akhlak, fiqih, ibadah, pemikiran, kesehatan, ekonomi, sejarah, muamalah, Islam dan sains, pernikahan, keluarga, parenting, kisah-kisah inspiratif, motivasi, gaya hidup, self healing, pengembangan diri, perempuan, biografi, bisnis, psikologi, tazkiyatun nafs, dan lain-lain yang dibutuhkan oleh keluarga Muslim (naskah asli maupun terjemahan).
                   <br><b> Jenis: </b> nonfiksi dan fiksi
-                </li>
+                </li><br>
                 <li>
                   <b> Segmentasi Remaja (terbit dalam bentuk ebook/audiobook) </b>
                    <br><b> Tema buku remaja: </b> acharacters building, pencarian jati diri, prestasi, cinta, selfhelp, how to/how to be dan lain-lain yang berhubungan dengan kehidupan remaja Islami (naskah asli maupun terjemahan).
                    <br><b> Jenis: </b> nonfiksi dan fiksi
-                 </li>
+                 </li><br>
                  <li>
                   <b> Segmentasi Anak (terbit dalam bentuk ebook/audiobook) </b>
                    <br><b> Tema buku remaja: </b> aqidah, akhlak, fiqih, ibadah, sejarah, sains, keluarga, pengembangan karakter, fabel, kesehatan, ekonomi, aktivitas & keterampilan, petualangan, persahabatan, dan lain-lain yang dibutuhkan oleh anak keluarga Muslim.
@@ -262,7 +264,7 @@
               </ol>
               <br>
               <ol><b> FORMAT NASKAH </b></ol>
-              <ol>
+              <ol id="f-naskah">
                 <li>
                   <b> NASKAH UMUM DAN REMAJA </b>
                   <br>
@@ -287,7 +289,7 @@
                 <br>
               </ol>
               <ol><b> FORMAT PENGIRIMAN </b></ol>
-              <ol>
+              <ol id="f-pengiriman">
                 <li> Kirimkan naskah dalam bentuk softcopy (Ms. Word atau PDF) ke email: redaksi @gemainsani.co.id </li>
                 <li> Judul email: [Segmentasi_Digital Publishing] Judul Naskah
                   <br> Contoh:
@@ -300,7 +302,7 @@
                 <li> Dilengkapi CV penulis, sinopsis lengkap, nilai jual/nilai pembeda, marketing plan jika ada, dan penjelasan mengenai copyright jika naskah terjemahan.  </li>
                 <li> Tim redaksi tidak menerima naskah dalam bentuk hardcopy. </li>
               </ol>
-
+              
             <!-- </span> -->
           </p>
         </div>
@@ -320,7 +322,7 @@
     <section class="galeri text-white" id="galeri">
       <!-- <div class="galeri"> -->
       <div class="row">
-        <div class="col-sm-10">
+        <div class="col-sm-12">
           <h2 class="text-center">katalog e-book gema insani digital</h2>
         </div>
       </div>
@@ -331,7 +333,7 @@
           <h5>TOP 10 Best Seller</h5>
           <div
             class="gallery1 js-flickity"
-            data-flickity-options='{ "wrapAround": true, "pageDots": false  }'
+            data-flickity-options='{ "wrapAround": true, "pageDots": false, "contain": true }'
           >
             <div class="item1">
               <p id="penulis">Hamka</p>
@@ -343,7 +345,11 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pribadi Hebat</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>Pribadi Hebat</b>
+                    </br>
+                      Dengan apa kita membuat orang menjadi tertarik? Dengan budi yang tinggi, kesopanan, ilmu pengetahuan yang luas, kesanggupan menahan hati pada perkara yang belum disepakati, dengan kecerdasan, kecepatan menarik kesimpulan, kebagusan susunan kata, kepandaian menjadaga perasaan orang, dan kesanggupan menenggang. Dal itu dapat dipelajari dengan pergaulan luas da nada juga karena diwarisi. Pendidikan orang tua, sekolah, teman, dan lingkungan masyarakat. Semua itu adalah guru yang membentuk daya tarik. Kuat atau lemahnya.
+                    
+                    "
                   />
                 </a>
               </div>
@@ -353,6 +359,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -376,6 +383,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -399,6 +407,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -422,6 +431,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -445,6 +455,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -454,11 +465,12 @@
           <h5>Koleksi Hamka</h5>
           <div
             class="gallery1 js-flickity"
-            data-flickity-options='{ "wrapAround": true, "pageDots": false  }'
+            data-flickity-options='{ "wrapAround": true, "pageDots": false, "contain": true }'
           >
+            <!-- 4 Bulan di Amerika -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">4 bulan di Amerika</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -466,7 +478,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>4 Bulan Amerika</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>4 Bulan di Amerika</b>
+                    </br>
+                    Buku ini mengajak kita mengenal banyak hal tentang Amerika. Sebagian dari kita selama ini mungkin mengenal Amerika adalah negara super power dengan berbagai produksi film Hollywood-nya. Namun, selain dari apa yang telah kita kenal, Amerika ternyata menyimpan kebudayaan dengan sejarah yang menarik serta memiliki tempat- tempat yang indah dan terkenal.
+                    "
                   />
                 </a>
               </div>
@@ -476,6 +491,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -483,7 +499,7 @@
             <!-- 1001-soal-kehidupan -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">1001 Soal Kehidupan</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -491,7 +507,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>1001 Soal Kehidupan</b></br><p>Buku ini mengajak kita mengenal banyak hal tentang Amerika</p>"
+                    title=" <b>1001 Soal Kehidupan</b>
+                    </br>
+                      Tidak bisa dinafikan bahwa hidup memang berisikan dinamika persoalan. Tidak peduli zaman telah berganti dan masa telah berlalu, tetapi persoalan akan selalu muncul dan berkembang seiring perputaran alam dan kehidupan itu sendiri.
+                    "
                   />
                 </a>
               </div>
@@ -501,12 +520,15 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
+
+            <!-- Akhlaqul Karimah -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Akhlaqul Karimah</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -514,7 +536,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Akhlaqul Karimah</b> </br>Islam sangat menjunjung akhlak mulia dan adab yang santun. Akhlak dan moral menjadi garda depan dalam agama Islam serta menjadi unsur penting dalam"
+                    title=" <b>Akhlaqul Karimah</b>
+                    </br>
+                      Islam sangat menjunjung akhlak mulia dan adab yang santun. Akhlak dan moral menjadi garda depan dalam agama Islam serta menjadi unsur penting dalam berbagai lini kehidupan mulai dari diri sendiri hingga ruang lingkup social yang lebih luas.
+                    "
                   />
                 </a>
               </div>
@@ -524,6 +549,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -539,7 +565,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pribadi Hebat</b> </br>"
+                    title=" <b>Pribadi Hebat</b>
+                    </br>
+                      Dengan apa kita membuat orang menjadi tertarik? Dengan budi yang tinggi, kesopanan, ilmu pengetahuan yang luas, kesanggupan menahan hati pada perkara yang belum disepakati, dengan kecerdasan, kecepatan menarik kesimpulan, kebagusan susunan kata, kepandaian menjadaga perasaan orang, dan kesanggupan menenggang.
+                    "
                   />
                 </a>
               </div>
@@ -549,14 +578,15 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
 
-
+            <!-- Ayahku -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Ayahku</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -564,7 +594,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Ayahku</b> </br>"
+                    title=" <b>Ayahku</b>
+                    </br>
+                      Hamka bukan hanya sedang menuturkan sebuah sejarah kebangkitan Islam dan penyebaran Islam cara baru (secara modern) di tanah Minangkabau, melainkan juga menuturkan sebuah riwayat dari sosok yang begitu melekat dan berpengaruh besar dalam pembentukan corak pribadi dan pemikiran Hamka, beliaulah Dr. Haji Abdul Karim Amrullah atau Haji Rasul.
+                    "
                   />
                 </a>
               </div>
@@ -574,6 +607,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -581,7 +615,7 @@
             <!-- Bohong di Dunia -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Bohong di Dunia</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -589,7 +623,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Bohong di Dunia</b> </br>"
+                    title=" <b>Bohong di Dunia</b>
+                    </br>
+                    Berbohong atau berdusta adalah berkata tidak jujur atau berdasarkan fakta sebenarnya. Orang yang berbohong akan melontarkan kata yang tidak benar, perkataan sudah pasti tidak sesuai atau berlawanan dengan fakta dan realitas.
+                    "
                   />
                 </a>
               </div>
@@ -599,6 +636,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -606,7 +644,7 @@
             <!-- Buya Hamka Berbicara tentang Perempuan -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Buya Hamka Berbicara...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -614,7 +652,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Buya Hamka Berbicara tentang Perempuan</b> </br> "
+                    title=" <b>Buya Hamka Berbicara tentang Perempuan</b>
+                    </br>
+                    Buku ini menguraikan bahwa justru perempuan sangat dimuliakan dalam Islam. Hal tersebut dibuktikan dengan dalil-dalil, baik dari Al-Qur’an maupun as-Sunnah, serta sejarah hidup Rasulullah, sahabat, dan generasi saleh.                    
+                    "
                   />
                 </a>
               </div>
@@ -624,6 +665,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -631,7 +673,7 @@
             <!-- Cinta Terkalang -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Cinta Terkalang</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -639,7 +681,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Cinta Terkalang</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>Cinta Terkalang</b>
+                    </br>
+                      Dalam buku ini, Hamka menyuguhkan kisah dramatis mengenai sepasang manusia yang saling jatuh cinta, tetapi terpisahkan oleh takdir dengan gaya bahasa yang mengalir dan ringan. Hamka tidak hanya menyoroti tema cinta, tetapi juga hal-hal berkaitan dengan adat istiadat Minangkabau yang menarik untuk diketahui.
+                    "
                   />
                 </a>
               </div>
@@ -649,15 +694,15 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
 
-
             <!-- Dari Hati ke Hati -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Dari Hati ke Hati</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -665,7 +710,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pribadi Hebat</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>Dari Hati ke Hati</b>
+                    </br>
+                    Dalam buku ini, kita akan menemukan bahwa deislamisasi dan indoktrinasi serta westernisasi bukanlah isu dan gerakan kekinian. Sejak zaman Buya Hamka, pergulatan Islam dengan kelompok anti-islam telah berlangsung, bahkan benihnya telah ditanam sejak masa colonial Belanda masuk ke Nusantara dnegan semangat gold, glory, gospel.
+                    "
                   />
                 </a>
               </div>
@@ -675,14 +723,15 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
 
-            <!--Dari Lembah Cita-cita  -->
+            <!-- Dari Lembah Cita-cita  -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Dari Lembah ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -690,7 +739,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Dari Lembah Cita-cita</b> </br>"
+                    title=" <b>Dari Lembah Cita-cita</b>
+                    </br>
+                    Buku ini merupakan salah satu saksi sejarah perjuangan Hamka menyebarkan semanngat pada generasi muda, di awal masa kemerdekaan, supaya mereka berjuang mengisi dan mempertahankan kemerdekaan dengan memakai dasra yang kukuh dalam jiwa mereka.                    
+                    "
                   />
                 </a>
               </div>
@@ -700,6 +752,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -707,7 +760,7 @@
             <!-- Dari Perbendaharaan Lama -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Dari Perbendaharaan ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -715,7 +768,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Dari Perbendaharaan Lama</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>Dari Perbendaharaan Lama</b>
+                    </br>
+                      Membaca sejarah nenek moyang adalah suatu hal yang meninggalakan kesan yang mendalam di jiwa kita, apalagi jika kita membacanya dengan rasa cinta. Semakin ia dibaca semakin terbayanglah masa yang lampau akan meninggalkan jejak yang dalam untuk menghadapai zaman sekarang dan yang akan datang.
+                    "
                   />
                 </a>
               </div>
@@ -725,6 +781,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -732,7 +789,7 @@
             <!-- Di Bawah Lindungan Ka`bah -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Di Bawah Lindungan ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -740,7 +797,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Di Bawah Lindungan Ka`bah</b> </br>"
+                    title=" <b>Di Bawah Lindungan Ka`bah</b>
+                    </br>
+                      Hamid dan Zainab adalah dua insan yang saling jatuh cinta, tetapi terpisahkan oleh perbedaan latar belakang keluarga dan derajat ekonomi. Perasaan cinta mereka tersimpan rapi dalam hati dan tidak pernah terungkapkan. 
+                    "
                   />
                 </a>
               </div>
@@ -750,6 +810,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -757,7 +818,7 @@
             <!-- Di Dalam Lembah Kehidupan -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Di Dalam Lembah ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -765,7 +826,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Di Dalam Lembah Kehidupan</b> </br>"
+                    title=" <b>Di Dalam Lembah Kehidupan</b>
+                    </br>
+                      Buku ini adalah kumpulan air mata, kesedihan, dan rintihan yang diderita oleh segolongan manusia di muka bumi ini. Air mata mereka itu sudah sampai masa penghabisan, telah mengalir ke tanah, dan hilang lenyap di pasir. Orang lain tidak peduli terhadap hal itu. Bagaimana mungkin orang akan peduli sebab orang-orang sedang dihalangi oleh kemewahan dan kesenangan.                    
+                    "
                   />
                 </a>
               </div>
@@ -775,6 +839,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -782,7 +847,7 @@
             <!-- Di Tepi Sungai Dajlah -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Di Tepi Sungai ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -790,7 +855,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pribadi Hebat</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>Pribadi Hebat</b>
+                    </br>
+                      Dalam buku ini, Hamka menuturkan tentang kisah lawatannya ketika mengunjungi Kota Baghdad, Irak, pada tahun 1950. Hamka tidak hanya menyoroti tentang kehidupan dan kondisi bangsa Irak pada waktu itu, tetapi juga segala sesuatu yang berkaitan dengan sejarah dan peradabannya.
+                    "
                   />
                 </a>
               </div>
@@ -800,6 +868,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -807,7 +876,7 @@
             <!-- Falsafah Ketuhanan -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Falsafah Ketuhanan</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -815,7 +884,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Falsafah Ketuhanan</b> </br>"
+                    title=" <b>Falsafah Ketuhanan</b>
+                    </br>
+                      Allah SWT menciptakan alam beserta isinya dnegan penuh keindahan. Dia menjadikan segala sesuatu dan Dia Yang Mahakuasa atas segala sesuatu yang ada. Semua yang ada di alam ini memberikan kesadaran kepada manusia bahwa Allah itu ada. Allah itu Esa.
+                    "
                   />
                 </a>
               </div>
@@ -825,6 +897,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -832,7 +905,7 @@
             <!-- Ghirah; Cemburu karena Allah -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Ghirah; Cemburu ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -840,7 +913,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Ghirah; Cemburu karena Allah</b> </br>"
+                    title=" <b>Ghirah; Cemburu karena Allah</b>
+                    </br>
+                      Ghirah bukan hanya milik orang Islam yang sering dicap fanatic oleh bangsa Barat karena kebertahanannya dalam menjaga muruah pada diri, keluarga, maupun agamanya. Namun, ghirah atau syaraf (Arab) juga milik setiap jiwa manusia, bahkan setiap daerah atau negara memiliki istilah sendiri untuk menyebutnya.                    
+                    "
                   />
                 </a>
               </div>
@@ -850,6 +926,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -857,7 +934,7 @@
             <!-- Islam Revolusi dan Ideologi -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Islam Revolusi dan ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -865,7 +942,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Islam Revolusi dan Ideologi</b> </br>"
+                    title=" <b>Islam Revolusi dan Ideologi</b>
+                    </br>
+                      Agama diturunkan Allah SWT ke dunia dengan perantara nabi-nabi-Nya untuk menuntun kemerdekaan jiwa manusia. Tidak ada satu makhluk yang berhak menguasai jiwa manusia. Islam mengajarkan kita syahadat bahwa tiada Tuhan selain Allah dan Nabi Muhammad adalah utusan-Nya. Bahwa hanya Allah SWT yang patut disembah dan diberikan penghormatan tertinggi.
+                    "
                   />
                 </a>
               </div>
@@ -875,6 +955,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -882,7 +963,7 @@
             <!-- Keadilan Sosial dalam Islam -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Keadilan Sosial ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -890,7 +971,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Keadilan Sosial dalam Islam</b> </br>"
+                    title=" <b>Keadilan Sosial dalam Islam</b>
+                    </br>
+                      Liberalisme, komunisme, fasisme, sosialisme, kapitalisme, dan beragam paham lainnya sudah silih berganti berusaha mengatur kehidupan manusia, perekonomian khususnya. Namun, semua paham itu adalah paham ciptaan manusia yang hanya menguntungkan satu pihak dan merugikan pihak lain. Satu paham digantikan oleh paham yang lain. Tidak tetap dan tergantikan.
+                    "
                   />
                 </a>
               </div>
@@ -900,6 +984,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -907,7 +992,7 @@
             <!-- Kenang-Kenangan Hidup -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Kenang-Kenangan ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -915,7 +1000,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Kenang-Kenangan Hidup</b> </br>"
+                    title=" <b>Kenang-Kenangan Hidup</b>
+                    </br>
+                      Haji Abdul Malik Karim Amrullah atau yang lebih dikenal dengan nama HAMKA. Sosok ulama, sastrawan, juga politikus besar Indonesia yang mendunia dan fenomenal. Figurnya yang sederhana dan amanah menghantarkannya menjadi pejabat tinggi dan penasihat Departemen Agama dan beliaulah ketua Majelis Ulama Indonesia yang pertama.
+                    "
                   />
                 </a>
               </div>
@@ -925,6 +1013,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -932,7 +1021,7 @@
             <!-- Kesepaduan Iman dan Amal Saleh -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Kesepaduan Iman dan ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -940,7 +1029,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Kesepaduan Iman dan Amal Saleh</b> </br>"
+                    title=" <b>Kesepaduan Iman dan Amal Saleh</b>
+                    </br>
+                      Untuk menyeimbangkan hidup sesuai tuntunan Islam maka harus ada keterpaduan (keharmonisan) antara iman dan amal saleh. Artinya seorang Muslim tidak cukup saja mengaku beriman, tapi ia juga harus kontinu melaksanakan dan menggiatkan ibadah dan amal-amal salehnya.
+                    "
                   />
                 </a>
               </div>
@@ -950,15 +1042,15 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
 
-
             <!-- Menunggu Beduk Berbunyi-->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Menunggu Beduk ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -966,7 +1058,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Menunggu Beduk Berbunyi</b> </br>"
+                    title=" <b>Menunggu Beduk Berbunyi</b>
+                    </br>
+                      Tuan Sharif terpaksa bekerja untuk Belanda karena tuntutan ekonomi, kebutuhan keluarga. Demi kehidupan yang layak untuk keluarganya, dia pada akhirnya menjadi seorang Federalis, orang yang dibenci para pejuangkemerdekaan. Lebih dari itu, tidak hanya masyarakat yang membenci, anak yang sangat dicintainya pun ikut membenci dirinya.
+                    "
                   />
                 </a>
               </div>
@@ -976,6 +1071,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -983,7 +1079,7 @@
             <!-- Merantau ke Deli -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Merantau ke Deli</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -991,7 +1087,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Merantau ke Deli</b> </br>"
+                    title=" <b>Merantau ke Deli</b>
+                    </br>
+                    Poniem, seorang perempuan Jawa, yang ketika di perantauan harus rela hidup sebagai istri simpanan dari seorang tuan tanah di sebuah perkebunan di Deli. Leman, seorang pemuda dari Minangkabau yang dengan penuh keyakinan dan optimis di tanah perantauan, loyal, dan percaya kepada sanak familinya. Benih cinta tumbuh di antara mereka.
+                    "
                   />
                 </a>
               </div>
@@ -1001,6 +1100,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1008,7 +1108,7 @@
             <!-- Pandangan Hidup Muslim -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Pandangan Hidup ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1016,7 +1116,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pandangan Hidup Muslim</b> </br>"
+                    title=" <b>Pandangan Hidup Muslim</b>
+                    </br>
+                      Pandangan hidup adalah konsep yang dimiliki seseorang atau golongan masyarakat dalam menanggapi dan menerangkan segala masalah di dunia ini. Dengan demikian, pandangan hidup seorang Muslim harus mengacu pada Al-quran dan as-Sunnah dan didahului oleh semangat tauhid, yaitu meng-Esa-kan Allah dan menghambakan diri hanya kepada Allah.
+                    "
                   />
                 </a>
               </div>
@@ -1026,6 +1129,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1033,7 +1137,7 @@
             <!-- Pelajaran Agama Islam -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Pelajaran Agama Islam</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1041,7 +1145,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pelajaran Agama Islam</b> </br>"
+                    title=" <b>Pelajaran Agama Islam</b>
+                    </br>
+                      Buku-buku karya Prof. Hamka masih diminati hingga saat ini. Dari sekian buku yang ditelah diterbitkan sebelumnya, buku Pelajaran Agama Islam: Hamka Berbicara tentang Rukun Iman merupakan buku yang membahas tentang aqidah Islam. Pembahasan tentang Allah SWT, malaikat-malaikat-Nya, kitab-kitab-Nya, para rasul-Nya, hari akhir, serta qadha dan qadar dibahas oleh Prof. Hamka dengan sangat rinci.
+                    "
                   />
                 </a>
               </div>
@@ -1051,6 +1158,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1058,7 +1166,7 @@
             <!-- Penuntun Jiwa -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Penuntun Jiwa</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1066,7 +1174,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Penuntun Jiwa</b> </br>"
+                    title=" <b>Penuntun Jiwa</b>
+                    </br>
+                      Dalam buku ini, Hamka mengangkat dan menyoroti sembilan elemen penting yang kadang abai dan luput dari perhatian kita. Betapa kehidupan ini diiringi oleh dua sisi yang berhimpitan, tetapi kadang bertolak belakang. Sisi dermawan dan bakhil, surga dan neraka, kekayaan dan kepailitan, dan lain-lain. Betapa kerap kali manusia terjerumus oleh kenaifannya, ketamakannya, nafsunya, dan jeratan tipu daya setan.
+                    "
                   />
                 </a>
               </div>
@@ -1076,6 +1187,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1083,7 +1195,7 @@
             <!-- Prinsip & Kebijaksanaan Dakwah Islam -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Prinsip & Kebijaksanaan</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1091,7 +1203,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Prinsip & Kebijaksanaan Dakwah Islam</b> </br>"
+                    title=" <b>Prinsip & Kebijaksanaan Dakwah Islam</b>
+                    </br>
+                      Berdakwah adalah salah satu bagian penting dari kehidupan seorang Muslim. Sesungguhnya, amar ma`ruf nahi munkar dapat dilakukan baik dengan lisan, tangan, maupun hati, dan selemah-lemahnya iman adalah melakukan dakwah dengan hati. Walaupun banyak Muslim menganggap dirinya belum cukup bekal untuk berdakwah, tidak perlu surut untuk tetap mengamalkan amar ma`ruf nahi munkar. Sebab itu, teruslah membekali diri agar dakwah yang dikerjakan berdasarkan tuntunan dari Rasulullah saw..
+                    "
                   />
                 </a>
               </div>
@@ -1101,6 +1216,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1108,7 +1224,7 @@
             <!-- Sabariah -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Sabariah</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1116,7 +1232,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Sabariah</b> </br>Sabariah merupakan sebuah karya fiksi pertama dari seorang Hamka—ulama, pengarang, dan politikus legendaris Indonesia—yang berjudul asli Cerita si Sabariah. Dalam novel ini, Hamka menyuguhkan kisah dilematis yang dialami Sabariah ketika harus memilih antara dua pilihan, yaitu menceraikan suaminya (Pulai) atau memutuskan hubungan kekeluargaan dengan ibunya (Sariaman). Bagaikan makan buah simalakama, begitulah nasib Sabariah yang diceritakan oleh Hamka dengan gaya bahasa yang puitis dan penuh makna"
+                    title=" <b>Sabariah</b>
+                    </br>
+                      Sabariah merupakan sebuah karya fiksi pertama dari seorang Hamka—ulama, pengarang, dan politikus legendaris Indonesia—yang berjudul asli Cerita si Sabariah. Dalam novel ini, Hamka menyuguhkan kisah dilematis yang dialami Sabariah ketika harus memilih antara dua pilihan, yaitu menceraikan suaminya (Pulai) atau memutuskan hubungan kekeluargaan dengan ibunya (Sariaman). Bagaikan makan buah simalakama, begitulah nasib Sabariah yang diceritakan oleh Hamka dengan gaya bahasa yang puitis dan penuh makna
+                      "
                   />
                 </a>
               </div>
@@ -1126,6 +1245,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1133,7 +1253,7 @@
             <!-- Sejarah Umat Islam -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Sejarah Umat Islam</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1141,7 +1261,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Sejarah Umat Islam</b> </br>Buku ini adalah tulisan mengagumkan dari seorang ulama fenomenal yang kerap dipanggil Buya Hamka"
+                    title=" <b>Sejarah Umat Islam</b>
+                    </br>
+                      Buku ini adalah tulisan mengagumkan dari seorang ulama fenomenal yang kerap dipanggil Buya Hamka. Pembendaharaan ilmunya yang luas serta kecintaannya yang mendalam terhadapa Islam membuat setiap tulisan di buku ini sarat hal yang sanggup mengguncang imajinasi pembaca untuk meresapi dan merenungi buku ini.
+                    "
                   />
                 </a>
               </div>
@@ -1151,6 +1274,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1158,7 +1282,7 @@
             <!-- Studi Islam -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Studi Islam</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1166,7 +1290,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Studi Islam</b> </br>Hamka dikenal sebagai seorang pengarang Islam yang produktif dan menaruh perhatian terhadap berbagai bidang keislaman, seperti tasawuf, falsafah, sejarah, kebudayaan, dan juga seorang pengarang roman, selain tugas rutinnya sebagai redaktur beberapa majalah Islam yang tetap diasuh dan diterbitkannya sendiri selama puluhan tahun. "
+                    title=" <b>Studi Islam</b>
+                    </br>
+                      Hamka dikenal sebagai seorang pengarang Islam yang produktif dan menaruh perhatian terhadap berbagai bidang keislaman, seperti tasawuf, falsafah, sejarah, kebudayaan, dan juga seorang pengarang roman, selain tugas rutinnya sebagai redaktur beberapa majalah Islam yang tetap diasuh dan diterbitkannya sendiri selama puluhan tahun.
+                    "
                   />
                 </a>
               </div>
@@ -1176,6 +1303,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1183,7 +1311,7 @@
             <!-- Tenggelamnya Kapal Van der Wijck -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Tenggelamnya ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1191,7 +1319,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Tenggelamnya Kapal Van der Wijck</b> </br>Zainuddin, seorang pemuda berdarah Minang dari ayah dan berdarah Bugis dari ibu, dengan hati penuh harapan dan angan akan sambutan gembira dari keluarga ayahnya, dari tanah kelahirannya Mengkasar pergi ke Padang Panjang kampong halaman sang ayah"
+                    title=" <b>Tenggelamnya Kapal Van der Wijck</b>
+                    </br>
+                      Zainuddin, seorang pemuda berdarah Minang dari ayah dan berdarah Bugis dari ibu, dengan hati penuh harapan dan angan akan sambutan gembira dari keluarga ayahnya, dari tanah kelahirannya Mengkasar pergi ke Padang Panjang kampong halaman sang ayah. Namun, apa yang diangankannya tidak terjadi.
+                    "
                   />
                 </a>
               </div>
@@ -1201,6 +1332,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1208,7 +1340,7 @@
             <!-- Terusir -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Terusir</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1216,7 +1348,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Terusir</b> </br>Mariah, ibu sekaligus perumpan halus perasaan dan cantik rupanya ini harus terusir karena sang suami, Azhar termakan dan menelan fitnah bulat-bulat."
+                    title=" <b>Terusir</b>
+                    </br>
+                      Mariah, ibu sekaligus perumpan halus perasaan dan cantik rupanya ini harus terusir karena sang suami, Azhar termakan dan menelan fitnah bulat-bulat. Lika-liku kehidupannya yang tak berantah pun dimulai.
+                    "
                   />
                 </a>
               </div>
@@ -1226,6 +1361,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1233,7 +1369,7 @@
             <!-- Tuan Direktur -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Tuan Direktur</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1241,7 +1377,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Tuan Direktur</b> </br>Jazuli, seorang pemuda dari Banjar, mencoba peruntungannya di Surabaya."
+                    title=" <b>Tuan Direktur</b>
+                    </br>
+                      Jazuli, seorang pemuda dari Banjar, mencoba peruntungannya di Surabaya. Bermoda kekerasan hati, ia berhasil memiliki hotel mewah dan took emas juga berlian yang terkenal hingga keluar negeri.
+                    "
                   />
                 </a>
               </div>
@@ -1251,6 +1390,7 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
@@ -1258,7 +1398,7 @@
             <!-- Tuntunan Puasa, Tarawih & Shalat Idul Fitri -->
             <div class="item1">
               <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="judul">Tuntunan Puasa ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
@@ -1266,7 +1406,10 @@
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Tuntunan Puasa</b> </br>Ramadhan adalah bulan penuh berkah, rahmat, dan ampunan Allah SWT. Di dalamnya banyak limpahan karunia dan nikmat yang diberikan-Nya kepada umat Islam, antara lain puasa, shalat Tarawih, dan penghujungnya, Hari Raya Idul Fitri."
+                    title=" <b>Tuntunan Puasa</b>
+                    </br>
+                      Ramadhan adalah bulan penuh berkah, rahmat, dan ampunan Allah SWT. Di dalamnya banyak limpahan karunia dan nikmat yang diberikan-Nya kepada umat Islam, antara lain puasa, shalat Tarawih, dan penghujungnya, Hari Raya Idul Fitri.
+                    "
                   />
                 </a>
               </div>
@@ -1276,141 +1419,2363 @@
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
+
           </div>
           <br />
-        </div>
-
-        <!-- Akhir Koleksi Hamkah -->
-        <div class="akhir-3">
-          <!-- <span id="dots-3"></span>
-          <span id="more-3"> -->
-          <h5>TOP 10 Best Seller</h5>
+          <!-- Akhir Koleksi Hamkah -->
+          <!-- Koleksi Umum -->
+          <h5>Koleksi Umum</h5>
           <div
             class="gallery1 js-flickity"
-            data-flickity-options='{ "wrapAround": true, "pageDots": false  }'
+            data-flickity-options='{ "wrapAround": true, "pageDots": false, "contain": true }'
           >
+            <!-- 10 Orang dijamin Masuk Surga -->
             <div class="item1">
-              <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="penulis">Abdullatif Ahmad 'Aasyur</p>
+              <p id="judul">10 Orang ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
-                    src="img/PribadiHebat.jpg"
+                    src="img/Umum/10 Orang dijamin Masuk Surga--EBOOK-cover_001.jpg"
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pribadi Hebat</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>10 Orang dijamin Masuk Surga</b>
+                    </br>
+                      Sahabat Rasulullah saw. adalah orang-orang yang setia dan rela mengorbankan harta dan dirinya untuk agama Allah dan melindungi Rasulullah saw. dari musuh-musuh Islam.
+                      Buku ini merupakan kumpulan kisah 10 orang sahabat Rasul yang sudah dijamin masuk surga.
+                    "
                   />
                 </a>
               </div>
               <a
-                href="#"
+                href="https://play.google.com/store/books/details/Abdullatif_Ahmad_Aasyur_10_Orang_Dijamin_Masuk_Sur?id=igvhDwAAQBAJ&hl=en"
                 class="btn"
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
+
+            <!-- Berbakti Kepada Ayah Bunda -->
             <div class="item1">
-              <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="penulis">Ahmad Isa Asyur</p>
+              <p id="judul">Berbakti ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
-                    src="img/PribadiHebat.jpg"
+                    src="img/Umum/Berbakti Kepada Ayah Bunda--EBOOK--cover_001.jpg"
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pribadi Hebat</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>Berbakti Kepada Ayah Bunda</b>
+                    </br>
+                      Karena kedua orang tualah, kita dapat hadir ke dunia ini. Seorang ibu telah dengan susah payah mengandung selama sembilan bulan, melahirkan kita dengan taruhan nyawa, juga dengan penuh perjuangan dan kasih sayang membesarkan dan merawat kita. Seorang ayah telah bekerja keras, mengeluarkan keringat untuk mencari dan memperoleh rezeki Allah demi kelangsungan hidup keluarga, istri, dan anak-anaknya. Dengan demikian, sungguh sangat tidak pantas jika tidak ada cinta, kasih sayang, dan sikap hormat kepada orang tua.
+                    "
                   />
                 </a>
               </div>
               <a
-                href="#"
+                href="https://play.google.com/store/books/details/Ahmad_Isa_Asyur_Berbakti_kepada_Ayah_Bunda?id=VTHfDwAAQBAJ&hl=en"
                 class="btn"
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
+
+            <!-- Bercermin pada Nabi Ibrahim -->
             <div class="item1">
-              <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="penulis">Dr. H. Otong Surasman, M.A.</p>
+              <p id="judul">Bercermin ...</p>
               <div class="gallery-cell">
                 <a>
                   <img
-                    src="img/PribadiHebat.jpg"
+                    src="img/Umum/Bercermin pada Nabi Ibrahim--EBOOK--cover_001.jpg"
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pribadi Hebat</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>Bercermin pada Nabi Ibrahim</b>
+                    </br>
+                      Nabi Ibrahim adalah bapak para nabi dan imam orang-orang yang hanif (lurus). Selain seorang yang taat kepada Allah, Nabi Ibrahim adalah seseorang yang menghimpun kebaikan dan mengajarkan kebaikan. Allah melimpahkan taufik dan restu kepada-Nya untuk berdakwah di jalan Allah ke jalan yang lurus dan Allah menjadikannya sebagai sosok yang dicintai oleh seluruh makhluk.
+                    "
                   />
                 </a>
               </div>
               <a
-                href="#"
+                href="https://play.google.com/store/books/details/Dr_H_Otong_Surasman_M_A_Bercermin_pada_Nabi_Ibrahi?id=LKLzDwAAQBAJ&hl=en"
                 class="btn"
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
+
+            <!-- Bid'ah dalam Agama -->
             <div class="item1">
-              <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="penulis">Dr. Yusuf al-Qardhawi</p>
+              <p id="judul">Bid'ah dalam Agama</p>
               <div class="gallery-cell">
                 <a>
                   <img
-                    src="img/PribadiHebat.jpg"
+                    src="img/Umum/Bid'ah dalam Agama--EBOOK--cover_001.jpg"
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pribadi Hebat</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>Bid'ah dalam Agama</b>
+                    </br>
+                      Di antara bencana paling berbahaya yang menimpa agama samawi adalah bid’ah. Syari’at Islam telah tegas memberi batasan bahwa bid’ah, mengada-adakan hal baru dalam risalah Islam, merupakan perkara yang tertolak dan sesat. Sebab Islam tidak menerima tambahan dalam agama karena sesuatu yang sempurna tidak memperkenankan adanya tambahan.
+                    "
                   />
                 </a>
               </div>
               <a
-                href="#"
+                href="https://play.google.com/store/books/details/Dr_Yusuf_al_Qaradhawi_Bid_ah_dalam_Agama?id=Z4PhDwAAQBAJ&hl=en"
                 class="btn"
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
+
+            <!-- Filsafat Ilmu -->
             <div class="item1">
-              <p id="penulis">Hamka</p>
-              <p id="judul">Pribadi Hebat</p>
+              <p id="penulis">Dr. Adian Husaini <i>et al.</i></p>
+              <p id="judul">Filsafat Ilmu</p>
               <div class="gallery-cell">
                 <a>
                   <img
-                    src="img/PribadiHebat.jpg"
+                    src="img/Umum/Filsafat Ilmu--EBOOK--cover_001.jpg"
                     data-toggle="tooltip"
                     data-placement="right"
                     data-html="true"
-                    title=" <b>Pribadi Hebat</b> </br> Ini dia Pribadi Hebat"
+                    title=" <b>Filsafat Ilmu</b>
+                    </br>
+                      Filsafat Ilmu, Perspektif Barat dan Islam karya Dr. Adian Husaini, dkk. ini merupakan kumpulan makalah yang menyeimbangkan dan meluruskan filsafat ilmu yang saat ini banyak mendapat pengaruh dari paham-paham sekularisme –menolak agama–.
+                    "
                   />
                 </a>
               </div>
               <a
-                href="#"
+                href="https://play.google.com/store/books/details/Dr_Adian_Husaini_et_al_Filsafat_Ilmu?id=ppzzDwAAQBAJ&hl=en"
                 class="btn"
                 id="btn-beli"
                 role="button"
                 aria-pressed="true"
+                target="_blank"
                 >BELI</a
               >
             </div>
+
+            <!-- Islam Gak Liberal -->
+            <div class="item1">
+              <p id="penulis">Zaki Ahmad Rivai</p>
+              <p id="judul">Islam Gak Liberal</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/Islam Gak Liberal--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Islam Gak Liberal</b>
+                    </br>
+                      Allah telah mengingatkan kepada manusia melalui Al-Qur’an bahwa sesungguhnya manusia tidak akan dibiarkan mengatakan beriman hingga Allah menguji siapa di antara manusia yang tetap dalam keimanan kepada Allah SWT. Akal telah dikarunia Allah kepada manusia sebagai tanda bahwa manusia adalah sebaik-baik makhluk dari semua makhluk ciptaan Allah SWT.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Zaky_Ahmad_Rivai_Islam_Gak_Liberal?id=CzPfDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Islam Hadir di Bumi Manusia -->
+            <div class="item1">
+              <p id="penulis">Akh. Muwafik Saleh</p>
+              <p id="judul">Islam Hadir ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/Islam Hadir di Bumi Manusia--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Islam Hadir di Bumi Manusia</b>
+                    </br>
+                      Islam Hadir di Bumi Manusia merupakan buku yang padat pemahaman mengenai Islam sebagai rahmatan lil `aalamiin. Dalam buku ini, penulis merangkai setiap kata yang dirasakan hati dan dipikirkan logika dengan lugas, berani, tetapi tetap indah untuk diresapi dan direnungi.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Akh_Muwafik_Saleh_Islam_Hadir_di_Bumi_Manusia?id=FcbhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Jangan Berdakwah Nanti Masuk Surga -->
+            <div class="item1">
+              <p id="penulis">Zaky Ahmad Rifai</p>
+              <p id="judul">Jangan Berdakwah ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/Jangan Berdakwah Nanti Masuk Surga--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Jangan Berdakwah Nanti Masuk Surga</b>
+                    </br>
+                      Banyak di antara kita melontarkan alasan klasik saat diajak untuk berbuat baik. Diajak bersedekah, beralasan belum kaya. Disuruh menikah untuk menghindari zina, beralasan belum mapan. Diajak ke masjid untuk shalat berjamaah, beralasan banyak kerjaan ini dan itu. Diajak berdakwah, beralasan masih belum baik maka tak mungkin mengajak orang untuk baik. Nanti dibenci Allah.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Zaky_Ahmad_Rivai_Jangan_Berdakwah_Nanti_Masuk_Surg?id=mzPfDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- KEMI 1 -->
+            <div class="item1">
+              <p id="penulis">Adian Husaini</p>
+              <p id="judul">KEMI 1</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/KEMI 1--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>KEMI 1</b>
+                    </br>
+                      Novel unik karya adian Husaini ini mengungkap liku-liku pemikiran dan kondisi kejiwaan sejumlah aktivis liberal di negri antah berantah yg belum pernah terungkap dalam karya-karya para penulis fiksi sebelum ini. Novel ini wajib di baca oleh para santri dan keluarga muslim yg mencintai keimanan dan berkeinginan selamat dari jeratan angan-angan dan gurita liberalism yg tiap detik menyerbu pikiran mereka.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Dr_Adian_Husaini_Kemi_1?id=4pzzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- KEMI 2 -->
+            <div class="item1">
+              <p id="penulis">Adian Husaini</p>
+              <p id="judul">KEMI 2</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/KEMI 2--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>KEMI 2</b>
+                    </br>
+                      Novel KEMI berkisah tentang dua orang santri cerdas yang berpisah jalan. Kemi (Ahmad Sukaimi), santri pertama, terjebak dalam paham liberalisme. Ia mengkhianati amanah sang Kiai. Kemi salah pilih teman dan paham keagamaan. Ujungnya, ia terjerat sindikat kriminal pembobol dana-dana asing untuk proyek liberalisasi di Indonesia. Ia semakin terjerat dengan pemikiran dan aktivitas penyebaran paham liberalisme setelah memasuki bangku kuliah di sebuah institut lintas agama. 
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Dr_Adian_Husaini_Kemi_2?id=6JzzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- KEMI 3 -->
+            <div class="item1">
+              <p id="penulis">Adian Husaini</p>
+              <p id="judul">KEMI 3</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/KEMI 3--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>KEMI 3</b>
+                    </br>
+                      Inilah akhir perjalanan Kemi. Setelah <q>bermain-main</q>, kemudian <q>terjebak</q> serta <q>tersesa</q> dalam kubangan liberalisme, santri cerdas bernama Kemi akhirnya menemui nasib tragis: diperas, dihinakan, disiksa, kemudian diakhiri hidupnya.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Dr_Adian_Husaini_Kemi_3?id=9pzzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Mengapa Malaikat dan Setan di Rumah Kita -->
+            <div class="item1">
+              <p id="penulis">Abu Hudzaifah Ibrahim, dkk.</p>
+              <p id="judul">Mengapa Malaikat ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/Mengapa Malaikat dan Setan di Rumah Kita--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Mengapa Malaikat dan Setan di Rumah Kita</b>
+                    </br>
+                      Rumah sebagai tempat terkecil dalam sebuah komunitas sosial masyarakat terkecil yang disebut keluarga pasti didambakan oleh setiap orang menjadi rumah yang dalam pepatah Arab, baiti jannati ‘rumahku surgaku’. Di dalam rumah, terjadi berbagai aktivitas dan terdapat berbagai sifat dan karakter penghuninya.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Abu_Hudzaifah_Ibrahim_Mengapa_Malaikat_dan_Setan_d?id=DYXhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Mengenal dan Mewaspadai Penyimpangan Syiah di Indonesia -->
+            <div class="item1">
+              <p id="penulis">DR. (H.C.) K.H. Ma'ruf Amin, dkk.</p>
+              <p id="judul">Mengenal & Mewaspadai</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/Mengenal dan Mewaspadai Penyimpangan Syiah di Indonesia--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Mengenal dan Mewaspadai Penyimpangan Syiah di Indonesia</b>
+                    </br>
+                      Dengan semakin banyaknya pengikut Syi‘ah di Indonesia, keberanian mereka mulai memunculkan diri –salah satunya dengan pelaksanaan Idul Ghadir di Jakarta baru-baru ini–, konflik yang terjadi antara Sunni – Syi‘ah di berbagai daerah, serta syi‘ahisasi yang semakin marak sehingga meresahkan kalangan Ahlus Sunnah wal Jamaah secara khusus dan masyarakat Indonesia secara umum, MUI memandang perlu di keluarkannya buku ini untuk menyosialisasikan fatwa MUI berkaitan dengan paham Syi‘ah.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Dr_H_C_K_H_Ma_ruf_Amin_Mengenal_dan_Mewaspadai_Pen?id=XqHzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+            
+            <!-- Parade Heroik Pembebas Palestina -->
+            <div class="item1">
+              <p id="penulis">Nurjanah Hulwani</p>
+              <p id="judul">Parade Heroik</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/Parade Heroik Pembebas Palestina--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Parade Heroik Pembebas Palestina</b>
+                    </br>
+                      Apa yang terjadi di Palestina adalah bentuk kezaliman dan penjajahan modern yang seyogianya sudah tidak ada lagi di muka bumi ini. Oleh karena itu, penting bagi kita semua untuk terus menyuarakan kondisi terkini yang terjadi di negara Palestina, termasuk perjuangan dan aksi-aksi heroik bangsa Palestina dalam memperjuangkan pembebasan tanah Palestina dari cengkeraman Zionis Israel dan sekutu-sekutunya.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Nurjanah_Hulwani_Parade_Heroik_Pembebas_Palestina?id=PJ3zDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+            
+            <!-- Pedoman & Tuntunan Shalat Lengkap -->
+            <div class="item1">
+              <p id="penulis">Tim Gema Insani</p>
+              <p id="judul">Pedoman & Tuntunan</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/Pedoman & Tuntunan Shalat Lengkap--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Pedoman & Tuntunan Shalat Lengkap</b>
+                    </br>
+                      Buku ini berisi pedoman dan tuntunan shalat lengkap, baik shalat fardhu maupun sunnah. Juga dilengkapi dengan ilustrasi/ gambar tata cara bersuci (thaharah), tata cara shalat, serta doa-doa dari Al-Qur’an dan As-Sunnah yang diambil dari kitab Hisnul Muslim.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Tim_Gema_Insani_Pedoman_dan_Tuntunan_Shalat_Lengka?id=2rrhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Tafsir Ekonomi Kontemporer -->
+            <div class="item1">
+              <p id="penulis">Abdul Wahid al-Faizin, dkk.</p>
+              <p id="judul">Tafsir Ekonomi ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Umum/Tafsir Ekonomi Kontemporer--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Tafsir Ekonomi Kontemporer</b>
+                    </br>
+                      Buku Tafsir Ekonomi Kontemporer: Menggali Teori Ekonomi dari Ayat-Ayat Al-Qur’an karya Abdul Wahid al-Faizin dan Nashr Akbar kami hadirkan dalam rangka ikut menyediakan sarana-sarana ilmu pengetahuan ekonomi Islam yang berlandaskan langsung kepada Al-Qur’an dan As-Sunnah yang kemudian dikorelasikan dengan teori ekonomi. Dengan demikian, selain dapat mengetahui keutaman sistem ekonomi Islam, kita juga akan mendapatkan ilmu ekonomi yang menyeluruh dengan lengkap.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Abdul_Wahid_Tafsir_Ekonomi_Kontemporer?id=72neDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
           </div>
           <br />
+          <!-- Akhir Koleksi Umum -->
+          <!-- Koleksi Fiqih -->
+          <h5>Koleksi Fiqih</h5>
+          <div
+            class="gallery1 js-flickity"
+            data-flickity-options='{ "wrapAround": false, "pageDots": false, "contain": true }'
+          >
+            <!-- Fiqih Lengkap Mengurus Jenazah -->
+            <div class="item1">
+              <p id="penulis">M. Nashiruddin al-Albani</p>
+              <p id="judul">Fiqih Lengkap ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Fiqih/Fiqih Lengkap Mengurus Jenazah--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Fiqih Lengkap Mengurus Jenazah</b>
+                    </br>
+                      Buku ini menjawab ketidaktahuan masyarakat tentang tata cara mengurus jenazah dan menerangkan bid‘ah-bid‘ah yang harus dihilangkan dari pelaksanaan pengurusan jenazah dan setelahnya. Buku ini tidak hanya menjelaskan pelaksanaan pengurusan jenazah, tetapi juga menerangkan adab-adab ketika menghadapi orang yang sakit dan sakaratul maut serta adab-adab setelah pemakaman jenazah seperti ta’ziyah dan ziarah kubur. 
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/M_Nashiruddin_al_Albani_Fiqih_Lengkap_Mengurus_Jen?id=JTHfDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Fiqih Perempuan Kontemporer -->
+            <div class="item1">
+              <p id="penulis">Farid Nu'man Hasan</p>
+              <p id="judul">Fiqih Perempuan ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Fiqih/Fiqih Perempuan Kontemporer--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Fiqih Perempuan Kontemporer</b>
+                    </br>
+                      Buku Fiqih Perempuan Kontemporer hadir untuk menjadi secercah cahaya terang bagi beragam persoalan yang menggelayuti masyarakat kita, terutama kaum perempuan. Buku ini dihimpun oleh seorang ustadz yang telah berpengalaman menjadi narasumber fatwa dan mengelola beberapa grup tanya jawab—via WhatssApp dan Telegram—dari berbagai per-soalan yang ditanyakan oleh masyarakat, terutama perempu-an.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Farid_Nu_man_Fiqih_Perempuan_Kontemporer?id=mcbhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+            
+            <!-- Fiqih Praktis Sehari-hari -->
+            <div class="item1">
+              <p id="penulis">Farid Nu'man Hasan</p>
+              <p id="judul">Fiqih Praktis ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Fiqih/Fiqih Praktis Sehari-hari--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Fiqih Praktis Sehari-hari</b>
+                    </br>
+                      Mencermati hiruk pikuk zaman, dengan segala problematik yang terjadi di tengah masyarakat, terutama kaum Muslim, beragam pertanyaan seputar hukum (fiqih) Islam pun muncul. Bagi masyarakat awam, jawaban dan penje-lasan atas berbagai permasalahan yang mereka temui se-hari-hari dari seorang ustadz, ulama, dai, atau sosok yang memang memiliki kepakaran dalam hal syari`at (agama) menjadi sebuah kebutuhan yang esensial.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Farid_Nu_man_Fiqih_Praktis_Sehari_hari?id=fcbhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Ini Dulu Baru Itu -->
+            <div class="item1">
+              <p id="penulis">Oni Sahroni</p>
+              <p id="judul">Ini Dulu Baru Itu</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Fiqih/Ini Dulu Baru Itu--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Ini Dulu Baru Itu</b>
+                    </br>
+                      Dalam buku ini, penulis menjelaskan kaidah-kaidah prioritas dalam bentuk standar dan rumus yang praktis, serta menggabungkan fiqih prioritas dan fiqih muwazanah. Buku ini ditulis dengan sistematis menggunakan bahasa yang lugas dan mudah dipahami. Selain itu, adanya penyajian dalil yang spesifik dan contoh-contoh kekinian yang beragam akan makin memudahkan pembaca dalam memahami fiqih prioritas.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Oni_Syahroni_Ini_Dulu_Baru_Itu?id=R8bhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+          </div>
+          <br />
+          <!-- Akhir Koleksi Fiqih -->
+          <!-- Koleksi Remaja -->
+          <h5>Koleksi Remaja</h5>
+          <div
+            class="gallery1 js-flickity"
+            data-flickity-options='{ "wrapAround": true, "pageDots": false, "contain": true }'
+          >
+            <!-- Al-Quran Braille untuk Nadia -->
+            <div class="item1">
+              <p id="penulis">Suliwe</p>
+              <p id="judul">Al-Quran Braille ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Remaja/Al-Quran Braille untuk Nadia--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Al-Quran Braille untuk Nadia</b> 
+                    </br>
+                      Keterbatasan fisik tidak menghalangi Nadia, Iffah, dan Azka Humaira untuk mensyukuri nikmat Allah. Fabiayyi aalaa irabbikumaa tukadzdzibaan. Mereka sadar betul Allah pasti memberikan yang terbaik untuk hamba-Nya. Jika kecantikan fisik bisa membuat seseorang lalai untuk mensyukuri nikmat-Nya, apakah jabatan tinggi dan harta berlimpah mampu membuat manusia mengingat Sang Pemberi kenikmatan?
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Suliwe_Al_Quran_Braile_untuk_Nadia?id=iqHzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+            
+            <!-- Cowok Bakwan VS Cowok Tampan -->
+            <div class="item1">
+              <p id="penulis">Yoga Aditama</p>
+              <p id="judul">Cowok Bakwan VS ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Remaja/Cowok Bakwan VS Cowok Tampan--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Cowok Bakwan VS Cowok Tampan</b>
+                    </br> 
+                      Seiring perkembangan zaman dan teknologi yang semakin melaju pesat, pola pikir dan gaya hidup generasi muda Islam pun terkena imbasnya. Di kalangan cowok dan cewek mulai merebak gaya pacaran dengan bungkusan pacaran syar`i, pacaran dengan dalih agama. Para cowok bakwan yang siap mencari korban cinta.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Yoga_Aditama_Cowok_Bakwan_vs_Cowok_Tampan?id=AWreDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Jomblos Diary -->
+            <div class="item1">
+              <p id="penulis">O. Solihin</p>
+              <p id="judul">Jomblos Diary</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Remaja/Jomblos Diary--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Jomblos Diary</b>
+                    </br>
+                      Buku ini memberi aspirasi beberapa orang yang masih ‘setia’ menjomblo, supaya mereka enggak minder dan tetap berani menghadapi kenyataan dengan bilang, “Ya, gue emang jomblo!”
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Oleh_Solihin_Jomblo_s_Diary?id=qDTfDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Lupakan Mantanmu -->
+            <div class="item1">
+              <p id="penulis">O. Solihin</p>
+              <p id="judul">Lupakan Mantanmu</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Remaja/Lupakan Mantanmu--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Lupakan Mantanmu</b>
+                    </br>
+                      Bagi sebagian orang, rasanya memang sulit melupakan mantan. Ada saja hal yang membuat teringat lagi dengan si mantan. Malah ada juga yang sengaja masih menyisakan ruang di hati untuk mengenang masa pacaran dan terus mengingat-ingat kenangan indah dengan si mantan.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/O_Solihin_Lupakan_Mantanmu?id=UqHzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+             <!-- Sosmed Addict -->
+             <div class="item1">
+              <p id="penulis">O. Solihin</p>
+              <p id="judul">Sosmed Addict </p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Remaja/Sosmed Addict--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Sosmed Addict</b>
+                    </br>
+                      Sosial Media memang fenomenal! Sekarang, hampir semua orang mengenal bahkan memiliki sosmed. Facebook, Twitter, Instagram, Path, LINE, dan masih banyak lagi. Setiap hari kita menyisihkan waktu untuk bercengkrama di sosial media. Satu jam, dua jam, lima jam, bahkan ada yang sampai sepuluh jam. Kalau sampai separah itu, bisa jadi kita sudah kecanduan sosial media.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Oleh_Solihin_Sosmed_Addict?id=dLvhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+          </div>
+          <br />
+          <!-- Akhir Koleksi Remaja -->
+          <!-- Koleksi Wanita -->
+          <h5>Koleksi Wanita</h5>
+          <div
+            class="gallery1 js-flickity"
+            data-flickity-options='{ "wrapAround": true, "pageDots": false, "contain": true }'
+          >
+            <!-- 165 Wasiat Rasul untuk Perempuan -->
+            <div class="item1">
+              <p id="penulis">AMR Abdul Mun'im Salim, dkk.</p>
+              <p id="judul">165 Wasiat Rasul ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Wanita/165 Wasiat Rasul untuk Perempuan--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>165 Wasiat Rasul untuk Perempuan</b>
+                    </br>
+                      Menjadi perempuan salihah berarti merelakan diri pada sibghatullah (celupan Allah) dalam menjalani kehidupan ini. Seorang perempuan salihah tidak akan berucap atau bertindak kecuali dengan kearifan, pengenalan, pemahaman, dan empati dalam bingkai pengabdina pada Rabbnya untuk mencapai kebaikan di dunia dan akhirat.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Amr_Abdul_Mun_im_Salim_165_Wasiat_Rasul_untuk_Pere?id=O4PhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Hajar; Perempuan Pilihan Langit -->
+            <div class="item1">
+              <p id="penulis">Dian Yasmina Fajri</p>
+              <p id="judul">Hajar</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Wanita/Hajar; Perempuan Pilihan Langit--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Hajar; Perempuan Pilihan Langit</b>
+                    </br>
+                      Buku ini mengangkat tentang kisah hidup seorang perempuan agung yang sejarahnya akan selalu dikenang sepanjang masa—Hajar. Mengapa sosok yang diselisik adalah Hajar? Karena Hajar adalah sosok istri dan ibu yang luar biasa. Mampu bersabar dan tunduk dalam ketaatannya terhadap perintah Allah dan suami (Nabi Ibrahim).
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Dian_Yasmina_Fajri_Hajar?id=qTLfDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Maryam; Perempuan Penghulu Surga -->
+            <div class="item1">
+              <p id="penulis">Dian Yasmina Fajri</p>
+              <p id="judul">Maryam</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Wanita/Maryam; Perempuan Penghulu Surga--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Maryam; Perempuan Penghulu Surga</b>
+                    </br>
+                      Tidak banyak buku yang membahas tentang Maryam. Sosok perempuan suci, mulia dan teramat istimewa. Tidak ada perempuan mana pun di muka bumi ini yang mendapat anugerah seperti Maryam, mengandung dan melahirkan seorang nabi agung tanpa perantara laki-laki (suami).
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Dian_Yasmina_Fajri_Maryam?id=CWreDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Muslimah Sukses Tanpa Stress -->
+            <div class="item1">
+              <p id="penulis">Dr. Erma Pawitasari, M.Ed</p>
+              <p id="judul">Muslimah Sukses ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Wanita/Muslimah Sukses Tanpa Stress--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Muslimah Sukses Tanpa Stress</b>
+                    </br>
+                      Arus globalisasi telah membuka berbagai peluang karier bagi kaum perempuan. Namun, semua itu justru menempatkan perempuan di persimpangan jalan, antara pilihan karier dan rumah tangga. Desakan lingkungan untuk “sukses” secara materiil sekaligus “sukses” di rumah tangga memaksa banyak perempuan mengambil peran ganda, menjadi superwoman. Efeknya, stres dan depresi di kalangan perempuan mencuat tinggi.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Dr_Erma_Pawitasari_M_Ed_Muslimah_Sukses_Tanpa_Stre?id=VKLzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Perempuan Seistimewa Bidadari -->
+            <div class="item1">
+              <p id="penulis">Qurrata Aini</p>
+              <p id="judul">Perempuan ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Wanita/Perempuan Seistimewa Bidadari--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Perempuan Seistimewa Bidadari</b>
+                    </br>
+                      Perempuan manakah yang tidak ingin menjadi secantik dan seistimewa bidadari, baik secara fisik maupun kepribadiannya, baik bagi diri sendiri maupun bagi orang-orang di sekelilingnya?
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Qurrata_Aini_Perempuan_Seistimewa_Bidadari?id=12neDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Sarah; Perempuan Penggenggam Cinta -->
+            <div class="item1">
+              <p id="penulis">Sinta Yudisia</p>
+              <p id="judul">Sarah</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Wanita/Sarah; Perempuan Penggenggam Cinta--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Sarah; Perempuan Penggenggam Cinta</b>
+                    </br>
+                      Menggali jejak sejarah Sarah bukanlah perkara mudah. Padahal, Sarah merupakan perempuan istimewa yang namanya akan terus dikenang dan diingat sepanjang masa. Sosok Sarah telah mengajarkan kita tentang arti keteguhan iman, keyakinan kuat, ketaatan penuh, kecerdasan, serta ketulusan cinta dan pengorbanan.                    
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Sinta_Yudisia_Sarah?id=6qDzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+          </div>
+          <br />
+          <!-- Akhir Koleksi Wanita -->
+          <!-- Koleksi Pernikahan dan Parenting -->
+          <h5>Koleksi Pernikahan dan Parenting</h5>
+          <div
+            class="gallery1 js-flickity"
+            data-flickity-options='{ "wrapAround": true, "pageDots": false, "contain": true }'
+          >
+            <!-- 40 Tips Keluarga Bahagia -->
+            <div class="item1">
+              <p id="penulis">Muhammad Shaleh al-Munajjid</p>
+              <p id="judul">40 Tips Keluarga ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/40 Tips Keluarga Bahagia--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>40 Tips Keluarga Bahagia</b>
+                    </br>
+                      Ketenteraman rumah adalah modal besar untuk kebahagian para penghuninya, terutama suami istri. Namun, ternyata dalam kehidupan tidak semua rumah menenteramkan penghuninya, tidak semua manusia dapat menciptakan ketenteraman dan kasih sayang di dalam rumahnya. Sampai ada orang-orang yang justru tidak betah berada di rumahnya sendiri.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Muhammad_Shaleh_al_Munajjid_40_Tips_Keluarga_Bahag?id=S4LhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- 120 Tanya Jawab Seksual -->
+            <div class="item1">
+              <p id="penulis">Ali bin Naef Ash-Shuhuud</p>
+              <p id="judul">120 Tanya Jawab ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/120 Tanya Jawab Seksual--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>120 Tanya Jawab Seksual</b>
+                    </br>
+                      Buku ini membahas secara detail tentang mu’asyarah zaujiyah (hubungan seksual) yang masih belum banyak dibahas. Padahal masalah ini penting untuk dipahami untuk semua pasangan suami istri. Terlebih lagi, saat ini kita mengalami distorsi pemahaman islam yang dahsyar, termasuk dalam hubungan seksual.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ali_bin_Naef_ash_Shuhuud_120_Tanya_Jawab_Seksual?id=PmfeDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Bukan Pernikahan Cinderella -->
+            <div class="item1">
+              <p id="penulis">Iwan Januar</p>
+              <p id="judul">Bukan Pernikahan ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Bukan Pernikahan Cinderella--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Bukan Pernikahan Cinderella</b>
+                    </br>
+                      Memantapkan hati dan langkah untuk memasuki gerbang pernikahan bukanlah perkara mudah. Sulitnya menemukan pasangan yang mau menerima kita sebagai calon pendamping atau karena masalah ekonomi menjadi salah satu kesulitan. Namun, adalah yang lebih sulit dari itu, yaitu kesiapan mental dan hati masing-masing pasangan saat memutuskan untuk mengarungi bahtera rumah tangga bersama.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Iwan_Januar_Bukan_Pernikahan_Cinderella?id=g4PhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Cinta di Rumah Nabi -->
+            <div class="item1">
+              <p id="penulis">Muhammad Said Dasuki</p>
+              <p id="judul">Cinta di Rumah Nabi</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Cinta di Rumah Nabi--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Cinta di Rumah Nabi</b>
+                    </br>
+                      Buku ini hadir di tengah maraknya isu percekcokan pasangan suami istri, bahkan tidak jarang yang berakhir dnegan perceraian. Buku ini mengangkat romantikan cinta rumah tangga Nabi Muhammad saw dengan istri-istri tercinta, yang memuat haru biru perasaan, mulai dari kelucuan, keriangan, kebahagiaan, hingga percikan rasa cemburu, amarah, dan kesedihan.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Muhammad_Said_Dasuki_Cinta_di_Rumah_Nabi?id=jWneDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Cinta untuk Sang Istri -->
+            <div class="item1">
+              <p id="penulis">Prof. Dr. M. Mutawalli asy-Sya'rawi</p>
+              <p id="judul">Cinta untuk Sang Istri</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Cinta untuk Sang Istri--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Cinta untuk Sang Istri</b>
+                    </br>
+                      Ketika seorang laki-laki mengikat perjanjian dengan mngucapkan ijab qabul sesungguhnya ia sudah melakukan perjanjian yang juga dilakukan Allah dengan para nabi, yaitu mitsaaqan ghaliizha (perjanjian yang kuat). Setelah menikah, ada hak-hak istri yang menjadi kewajiban suami untuk memenuhinya. Sang istri telah merelakan segala sesuatu yang ada pada dirinya untuk diserahkan kepada suami.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/M_Mutawalli_asy_Sya_rawi_Cinta_untuk_Sang_Istri?id=f4PhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Istriku, Dengarlah Aku Bertutur -->
+            <div class="item1">
+              <p id="penulis">Asy-Syawadifi al-Baz</p>
+              <p id="judul">Istriku, Dengarlah ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Istriku-Dengarlah-Aku Bertutur.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Istriku, Dengarlah Aku Bertutur</b>
+                    </br>
+                      Seumpama kapal, suami adalah nakhoda dan istri adalah navigator yang bertugas mengamati cuaca, mengatur haluan kapal. Nakhoda andal apabila tidak didampingi oleh navigator yang cakap bisa saja membuat kapal tenggelam. Begitulah gambaran pentingnya peran sosok istri dalam rumah tangga.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/asy_Syawadifi_al_Baz_Istriku_Dengarlah_Aku_Bertutu?id=r4PhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Jodoh; Memilih Jodoh & Meminang dalam Islam -->
+            <div class="item1">
+              <p id="penulis">Husein Muhammad Yusuf</p>
+              <p id="judul">Jodoh ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Jodoh; Memilih Jodoh & Meminang dalam Islam--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Jodoh; Memilih Jodoh & Meminang dalam Islam</b>
+                    </br>
+                      Islam mengatur semua aspek kehidupan. Tidak ada satu pun hal menyangkut kehidupan manusia yang tidak diatur dalam Islam. Apalagi dalam urusan membina keluarga. Rasulullah memberikan rambu-rambu untuk umatnya dalam hal memilih istri dan suami sehingga terbentuk ketenteraman dalam keluarga.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Husein_Muhammad_Yusuf_Jodoh?id=GTTfDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Kado Pernikahan Indahnya Malam Pertama -->
+            <div class="item1">
+              <p id="penulis">M. Nasbiruddin al-Albani</p>
+              <p id="judul">Kado Pernikahan ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Kado Pernikahan Indahnya Malam Pertama--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Kado Pernikahan Indahnya Malam Pertama</b>
+                    </br>
+                      Rasulullah adalah manusia yang paling sempurna. Hanya beliaulah yang patut kita teladani, termasuk dalam hal membina rumah tangga. Jika Rasulullah yang menjadi teladan kita dalam kehidupan rumah tangga, kebahagiaan dunia akhiratlah yang akan kita capai.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/M_Nashiruddin_al_Albani_Kado_Pernikahan?id=2YThDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Kado Untuk Suami Istri -->
+            <div class="item1">
+              <p id="penulis">Majid Sulaiman Daudin</p>
+              <p id="judul">Kado ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Kado Untuk Suami Istri--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Kado Untuk Suami Istri</b>
+                    </br>
+                      Buku ini ditujukan untuk mereka yang akan menikah, baru saja menikah, dan pasangan suami istri yang telah lama menikah. Buku ini berisi pembahasan untuk menyiapkan diri untuk menikah, menjadi suami/istri dan menjadi orang tua untuk tujuan membangun keluarga sakinah. Untuk menjalani kehidupan rumah tangga sesuai dengan tuntunan Islam. Hingga akhirnya dapat meraih kebahagiaan dan keberkahan dunia akhirat.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Majid_Sulaiman_Daudin_Kado_untuk_Suami_Istri?id=-YThDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Mendidik Anak dengan Cinta -->
+            <div class="item1">
+              <p id="penulis">Sinta Yudisia</p>
+              <p id="judul">Mendidik Anak ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Mendidik Anak dengan Cinta--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Mendidik Anak dengan Cinta</b>
+                    </br>
+                      Anak adalah titipan Allah SWT. Mendidik mereka dengan baik, seoptimal mungkin, merupakan kewajiban bagi setiap orang tua. Mendidik mereka untuk mengenal Allah, malaikat-Nya, nabi dan rasul-Nya, Kitab Suci-Nya, bahkan mengenal diri mereka sendiri—termasuk bakat dan potensi yang mereka miliki.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Sinta_Yudisia_Mendidik_Anak_dengan_Cinta?id=4KDzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Menikah Aku Bebas -->
+            <div class="item1">
+              <p id="penulis">Cholidi Asadil Alam</p>
+              <p id="judul">Menikah Aku Bebas</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Menikah Aku Bebas--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Menikah Aku Bebas</b>
+                    </br>
+                      Buku Menikah Aku Bebas merupakan sebuah karya persembahan dari Cholidi Asadil Alam (penulis). Berdasarkan pengetahuan dan pengalaman yang dimilikinya, penulis mencoba membedah dan membahas pernak-pernik seputar pernikahan yang dapat dijadikan sebagai salah satu referensi bagi muda mudi yang hendak menikah atau pasangan suami istri yang baru merajut mahligai rumah tangga.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Cholidi_Asadil_Alam_Menikah_Aku_Bebas?id=hOzhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Menjadi Suami dan Ayah Hebat -->
+            <div class="item1">
+              <p id="penulis">Haikal Hassan Baras</p>
+              <p id="judul">Menjadi Suami ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Menjadi Suami dan Ayah Hebat--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Menjadi Suami dan Ayah Hebat</b>
+                    </br>
+                      Dalam buku Menjadi Suami dan Ayah Hebat, penulis—Ustadz Haikal Hassan Baras atau yang akrab dipanggil Babe Haikal—me-maparkan pernikahan dalam sebelas bab menggunakan sudut pandang lakilaki.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Haikal_Hassan_Baras_Menjadi_Suami_dan_Ayah_Hebat?id=WvThDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Negeri Tanpa Laki-Laki -->
+            <div class="item1">
+              <p id="penulis">Eko Novianto Nugroho</p>
+              <p id="judul">Negeri Tanpa ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Negeri Tanpa Laki-Laki--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Negeri Tanpa Laki-Laki</b>
+                    </br>
+                      Buku ini ditulis dengan kesadaran untuk menjadi laki-laki, menjadi lebih laki-laki, menjadi lebih ayha, dan menjadi lebih baik sebagai laki-laki. Buku ini layak dibaca oleh laki-laki dan diapresiasi oleh setiap perempuan yang tidak ingin kehilangan laki-lakinya. Penulis inigin mengajak setiap laki-laki agar bersikap dan berperilaku menjadi “laki-laki”.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Eko_Novianto_Nugroho_Negeri_Tanpa_Laki_laki?id=FIzhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Perfect Dreamy Wedding -->
+            <div class="item1">
+              <p id="penulis">Floweria</p>
+              <p id="judul">Perfect Dreamy ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Perfect Dreamy Wedding--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Perfect Dreamy Wedding</b>
+                    </br>
+                      Buku Perfect Dreamy Wedding tidak akan membahas secara detail tentang apa-apa yang sudah dibahas secara menyeluruh dalam berbagai buku dan kitab bertemakan fiqih munakahat. Buku ini menjadi buku pendamping dari berbagai buku dan kitab yang membahas lengkap tentang fiqih munakahat agar persiapan ilmu tentang pernikahan dan berumah tangga kita semakin lengkap dan komprehensif.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Floweria_Perfect_Dremy_Wedding?id=nKHzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Psikologi Pasangan -->
+            <div class="item1">
+              <p id="penulis">Muhammad Iqbal, dkk.</p>
+              <p id="judul">Psikologi Pasangan</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Psikologi Pasangan--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Psikologi Pasangan</b>
+                    </br>
+                      Allah SWT menciptakan laki-laki dan perempuan dengan kelebihan dan keterbatasan sesuai dengan peran masingmasing. Dalam pernikahan, pada hakikatnya, perbedaan di antara pasangan suami istri akan membuat keduanya merasa saling membutuhkan serta saling melengkapi. Namun, perbedaan tersebut juga bisa menyebabkan konflik terjadi.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Muhammad_Iqbal_Psikologi_Pasangan?id=k-nzDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Psikologi Pernikahan -->
+            <div class="item1">
+              <p id="penulis">Muhammad Iqbal, Ph.D.</p>
+              <p id="judul">Psikologi Pernikahan</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Psikologi Pernikahan--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Psikologi Pernikahan</b>
+                    </br>
+                      Menikah dan berkeluarga merupakan fitrah dari semua insan yang bernyawa. Namun, membangun pernikahan dan keluarga yang harmonis tidak selalu mudah. Ada begitu banyak problematik dan ujian yang harus dihadapi oleh pasangan suami istri dalam mengayuh biduk rumah tangga.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Muhammad_Iqbal_Ph_D_Psikologi_Pernikahan?id=4rrhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Rumah Cinta Hasan al-Banna -->
+            <div class="item1">
+              <p id="penulis">Muhammad Lili Nur Aulia</p>
+              <p id="judul">Rumah Cinta ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Rumah Cinta Hasan al-Banna--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Rumah Cinta Hasan al-Banna</b>
+                    </br>
+                      Buku ini mengangkat sosok Hasan al-Banna, seorang pembaharu Islam abad 20, di tengah keluarganya. Buku ini menggambarkan kehangatan pribadi dan kedalaman kasih dari sosok seorang anak, seorang suami, dan seorang ayah ketika ia berada di rumah, berada bersama anggota keluarganya.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Muhammad_Lili_Nur_Aulia_Rumah_Cinta_Hasan_al_Banna?id=YcbhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Sentuhan Cinta Ibu -->
+            <div class="item1">
+              <p id="penulis">Muhammad Lili Nur Aulia</p>
+              <p id="judul">Sentuhan Cinta Ibu</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Sentuhan Cinta Ibu--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Sentuhan Cinta Ibu</b>
+                    </br>
+                      Buku ini adalah sebuah buku yang didedikasikan untuk para ibu masa kini. Sebuah buku yang mengangkat cuplikan keteladanan dari sosok istimewa para ibu tokoh besar Islam. Siapakah yang tidak kenal dengan nama besar Imam al-Bukhari? Imam asy-Syafi’I? Umar bin abdul Aziz? Muhammad al-Fatih? Sufyan ats-Tsauri? Dan masih banyak lagi tokoh hebat Islam lainnya.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Muhammad_Lili_Nur_Aulia_Sentuhan_Cinta_Ibu?id=6rrhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Suamiku Bukan Idolaku -->
+            <div class="item1">
+              <p id="penulis">Boim Lebon</p>
+              <p id="judul">Suamiku Bukan ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Suamiku Bukan Idolaku--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Suamiku Bukan Idolaku</b>
+                    </br>
+                      Pernikahan adalah sebuah ikatan yang sakral. Ikatan yang telah menyatukan sepasang insan dalam sebuah komitmen untuk senantiasa bersama dalam suka maupun duka, dalam lapang maupun sempit, dan dalam lebih maupun kurang.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Boim_Lebon_Suamiku_Bukan_Idolahku?id=kcbhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Wajah-Wajah Istri -->
+            <div class="item1">
+              <p id="penulis">Edy Sukardi</p>
+              <p id="judul">Wajah-Wajah Istri</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Wajah-Wajah Istri--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Wajah-Wajah Istri</b>
+                    </br>
+                      Pernikahan adalah seni menjalin hubungan dan mengharmonisasi cinta antara suami dan istri. Ada begitu banyak hal yang butuh untuk dipahami dan diselaraskan oleh pasangan suami istri, termasuk mengenal dan memahami kekhasan dari tipe masing-masing pasangan, baik suami maupun istri.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Edy_Sukardi_Wajah_wajah_Istri?id=Fb_hDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Wajah-Wajah Suami -->
+            <div class="item1">
+              <p id="penulis">Edy Sukardi</p>
+              <p id="judul">Wajah-Wajah Suami</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Pernikahan_Parenting/Wajah-Wajah Suami--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Wajah-Wajah Suami</b>
+                    </br>
+                      Pernikahan adalah seni menjalin hubungan dan mengharmonisasi cinta antara suami dan istri. Ada begitu banyak hal yang butuh untuk dipahami dan diselaraskan oleh pasangan suami istri, termasuk mengenal dan memahami kekhasan dari tipe masing-masing pasangan, baik suami maupun istri.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Edy_Sukardi_Wajah_wajah_Suami?id=N7_hDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+          </div>
+          <br />
+          <!-- Akhir Koleksi Pernikahan dan Parenting -->
+          <!-- Koleksi Kesehatan -->
+          <h5>Koleksi Kesehatan</h5>
+          <div
+            class="gallery1 js-flickity"
+            data-flickity-options='{ "wrapAround": false, "pageDots": false, "contain": true }'
+          >
+            <!-- Cerdas Menghadapi Kanker Payudara -->
+            <div class="item1">
+              <p id="penulis">Tim Edukasi Kanker Payudara</p>
+              <p id="judul">Cerdas Menghadapi ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Kesehatan/Cerdas Menghadapi Kanker Payudara--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Cerdas Menghadapi Kanker Payudara</b>
+                    </br>
+                      Buku ini memuat beragam indormasi seputar kanker payudara, baik cara pencegahannya, pendeteksian dini, maupun penyembuhannya. Tidak bisa dinafikan bahwa kanker payudara merupakan salah satu jenis penyakit yang banyak menyerang kaum hawa bahkan merenggut nyawa perempuan Indonesia dan seluruh dunia.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Tim_Edukasi_Medis_Kanker_Payudara_Cerdas_Menghadap?id=icHhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+            
+            <!-- Tetap Sehat Setelah Usia 40 -->
+            <div class="item1">
+              <p id="penulis">dr. Salma</p>
+              <p id="judul">Tetap Sehat ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Kesehatan/Tetap Sehat Setelah Usia 40--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Tetap Sehat Setelah Usia 40</b>
+                    </br>
+                      Tetap sehat setalah usia 40, mungkinkah? Mungkin! Sangat mungkin bahkan. Apa rahasianya? Rahasianya, Anda harus memahami dengan benar tubuh Anda sendiri,membekali diri dengan pengetahuan dan menjaganya sejak sedini mungkin. Jangan sampai Anda menjadi korban anggapan yang beredar di masyarakat bahwa menderita berbagai penyakit setelah berusia di atas 40 tahun adalah biasa.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/dr_Salma_Tetap_Sehat_di_Usia_40?id=177hDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Thibbun Nabawi -->
+            <div class="item1">
+              <p id="penulis">M. Saifudin Hakim, dkk.</p>
+              <p id="judul">Thibbun Nabawi</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Kesehatan/Thibbun Nabawi--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Thibbun Nabawi</b>
+                    </br>
+                      Sebagian kalangan merendahkan thibbun nabawi. Namun, sebagian yang lain terlalu berlebih-lebihan hingga mengagung-agungkan thibbun nabawi. Bahkan, ada yang beranggapan bahwa pengobat-an selain thibbun nabawi adalah pengobatan yang salah, berbahaya, atau haram ditempuh.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/M_Saifudin_Hakim_Thibbun_Nabawi?id=Vq3iDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+          </div>
+          <br />
+          <!-- Akhir Koleksi Kesehatan -->
+          <!-- Koleksi Motivasi -->
+          <h5>Koleksi Motivasi</h5>
+          <div
+            class="gallery1 js-flickity"
+            data-flickity-options='{ "wrapAround": true, "pageDots": false, "contain": true }'
+          >
+            <!-- Dari Kuntum Menjadi Bunga 1 -->
+            <div class="item1">
+              <p id="penulis">Ibnu Basyar</p>
+              <p id="judul">Dari Kuntum ... (1)</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Dari Kuntum Menjadi Bunga 1--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Dari Kuntum Menjadi Bunga 1</b>
+                    </br>
+                      Buku ini merupakan buku seri yang berisikan kumpulan kisah menarik dan menggugah hati. Beragam kisah yang diambil dari sekeliling kita. Kisah-kisah yang mungkin terabaikan, padahal memiliki pesan moral dan perenungan bijak yang bisa memperkaya jiwa.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ibnu_Basyar_Dari_Kuntum_Menjadi_Bunga_1?id=pcXhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Dari Kuntum Menjadi Bunga 2 -->
+            <div class="item1">
+              <p id="penulis">Ibnu Basyar</p>
+              <p id="judul">Dari Kuntum ... (2)</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Dari Kuntum Menjadi Bunga 2--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Dari Kuntum Menjadi Bunga 2</b>
+                  </br>
+                    Hidup adalah jejak-jejak kisah yang bertebaran di muka bumi. Beragam kisah yang saling berkelindan untuk diambil hikmah dan pelajaran. Kisah-kisah yang akan mengayakan jiwa dan khazanah pengetahuan kita.
+                  "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ibnu_Basyar_Dari_Kuntum_Menjadi_Bunga_2?id=8cXhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Dari Kuntum Menjadi Bunga 3 -->
+            <div class="item1">
+              <p id="penulis">Ibnu Basyar</p>
+              <p id="judul">Dari Kuntum ... (3)</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Dari Kuntum Menjadi Bunga 3--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Dari Kuntum Menjadi Bunga 3</b>
+                    </br>
+                      Hidup adalah jejak-jejak kisah yang bertebaran di muka bumi. Beragam kisah yang saling berkelindan untuk diambil hikmah dan pelajaran. Kisah-kisah yang akan mengayakan jiwa dan khazanah pengetahuan kita.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ibnu_Basyar_Dari_Kuntum_Menjadi_Bunga_3?id=AcbhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Jangan Berpaling, Bertahanlah di Jalan Ini -->
+            <div class="item1">
+              <p id="penulis">Ewa Abdullah</p>
+              <p id="judul">Jangan Berpaling, ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Jangan Berpaling, Bertahanlah di Jalan Ini--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Jangan Berpaling, Bertahanlah di Jalan Ini</b>
+                    </br>
+                      Mencermati fenomena dakwah dan pergerakan Islam di dunia, terutama di tanah air, dalam berbagai masa tentu menarik minat kita (umat Islam) untuk merenung sejenak, menapaktilasi jejak-jejak panjang yang telah ditoreh-kan para pendahulu, para pejuang Islam, dan para ulama.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ewa_Abdullah_Jangan_Berpaling_Bertahanlah_di_Jalan?id=qJ3zDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Keep Positive Thinking -->
+            <div class="item1">
+              <p id="penulis">Adil Fathi Abdullah</p>
+              <p id="judul">Keep Positive ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Keep Positive Thinking--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Keep Positive Thinking</b>
+                    </br>
+                      Segala masalah, ujian, serta kondisi yang terkadang tidak sesuai dengan harapan kita adalah jalan bagi diri kita untuk selangkah lebih maju dan lebih tinggi dalam menapaki jalan kehidupan. Hanya kepada Allah-lah kita menggantungkan segalanya, mengadukan segala curahan dan kegalauan hati.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Adil_Fathi_Abdullah_Keep_Positive_Thinking?id=UTXfDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Mengisi Hati di Lorong Kehidupan 1 -->
+            <div class="item1">
+              <p id="penulis">Ibnu Basyar</p>
+              <p id="judul">Mengisi Hati ... (1)</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Mengisi Hati di Lorong Kehidupan 1--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Mengisi Hati di Lorong Kehidupan 1</b>
+                    </br>
+                      Layaknya sebuah tanaman yang bisa layu dan gersang, jiwa seorang Muslim juga dapat mengalami kegersangan. Apabila tanaman membutuhkan air untuk menyirami, jiwa manusia membutuhkan siraman iman setiap waktu agar terjaga kesegarannya. Lalu dari manakah siraman iman kita dapatkan?
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ibnu_Basyar_Mengisi_Hati_di_Lorong_Kehidupan_1?id=I4XhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Mengisi Hati di Lorong Kehidupan 2 -->
+            <div class="item1">
+              <p id="penulis">Ibnu Basyar</p>
+              <p id="judul">Mengisi Hati ... (2)</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Mengisi Hati di Lorong Kehidupan 2--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Mengisi Hati di Lorong Kehidupan 2</b>
+                    </br>
+                      Termasuk cara menjaga dan memperbaiki iman adalah dengan menuntut ilmu agama dan berteman dengan orang saleh, baik orang saleh yang hidup zaman dahulu maupun yang masih hidup saat ini, baik secara langsung maupun tidak langsung. 
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ibnu_Basyar_Mengisi_Hati_di_Lorong_Kehidupan_2?id=-ovhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Menjadi Bijak & Bijaksana 1 -->
+            <div class="item1">
+              <p id="penulis">Ibnu Basyar</p>
+              <p id="judul">Menjadi Bijak ... (1)</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Menjadi Bijak & Bijaksana 1--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b> Menjadi Bijak & Bijaksana 1 </b>
+                    </br>
+                      Hikmah adalah mutiara yang tercecer, serupa butiran pasir di tepian pantai. Namun, sesuatu yang berharga itu acapkali kita abaikan. Andai saja kita mau sejenak membuka telinga, mata dan hati untuk benar-benar mendengar dan melihat sekeliling kita, sungguh akan kita temukan pendaran pelangi hikmat kehidupan yang indah dan memesona untuk diresapi.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ibnu_Basyar_Menjadi_Bijak_dan_Bijaksana_1?id=-IvhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Menjadi Bijak & Bijaksana 2 -->
+            <div class="item1">
+              <p id="penulis">Ibnu Basyar</p>
+              <p id="judul">Menjadi Bijak ... (2)</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Menjadi Bijak & Bijaksana 2--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Menjadi Bijak & Bijaksana 2</b>
+                    </br>
+                      Dunia adalah persinggahan sementara. Lelah dan getir, kepuasan dan keputusasaan, tangisan dan senyuman, cinta dan benci adalah perguliran rasa yang pasti akan menghinggapi hati setiap manusia yang masih mendetakkan nafas kehidupan.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ibnu_Basyar_Menjadi_Bijak_dan_Bijaksana_2?id=_IvhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Menjadi Bijak & Bijaksana 3 -->
+            <div class="item1">
+              <p id="penulis">Ibnu Basyar</p>
+              <p id="judul">Menjadi Bijak ... (3)</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Menjadi Bijak & Bijaksana 3--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Menjadi Bijak & Bijaksana 3</b>
+                    </br>
+                      Kehidupan adalah cermin, yang mengajari dan menuntun kita menuju mata air kearifan dan kebahagiaan. Kehidupan yang mengajarkan kita tentang arti sebuah pilihan hidup dan konsekuensinya.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ibnu_Basyar_Menjadi_Bijak_dan_Bijaksana_3?id=dIzhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Menjadi Bijak & Bijaksana 4 -->
+            <div class="item1">
+              <p id="penulis">Ibnu Basyar</p>
+              <p id="judul">Menjadi Bijak ... (4)</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Menjadi Bijak & Bijaksana 4--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Menjadi Bijak & Bijaksana 4</b>
+                    </br>
+                      Hidup adalah sebuah perguliran. Perguliran antara bahagia dan sedih, suka dan duka, lapang dan sempit. Manusia yang bijak adalah mereka yang mampu menggali hikmah dari semua hal yang mereka alami dan lalui dalam hidupnya.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ibnu_Basyar_Menjadi_Bijak_dan_Bijaksana_4?id=dozhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Menjadi Bijak & Bijaksana 5 -->
+            <div class="item1">
+              <p id="penulis">Ibnu Basyar</p>
+              <p id="judul">Menjadi Bijak ... (5)</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Menjadi Bijak & Bijaksana 5--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Menjadi Bijak & Bijaksana 5</b>
+                    </br>
+                      Hidup ini bagaikan roda yang berputar, kadang di bawah kadang di atas. Sebuah rotasi yang menuntut kesyukuran dan kesabaran seorang hamba. Jiwa-jiwa yang berada di antara raja dan khauf (harap dan cemas) membutuhkan suntikan semangat dan keimanan tinggi.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ibnu_Basyar_Menjadi_Bijak_dan_Bijaksana_5?id=EIzhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Sepenggal Cerita Sejuta Makna -->
+            <div class="item1">
+              <p id="penulis">Abdul Wahid al-Faizin</p>
+              <p id="judul">Sepenggal Cerita ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Sepenggal Cerita Sejuta Makna--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Sepenggal Cerita Sejuta Makna</b>
+                    </br>
+                      Sepenggal Cerita Sejuta Makna merupakan buku yang tidak hanya menuturkan rangkaian cerita terpilih, tetapi juga menggali jutaan makna yang tersimpan dalam cerita tersebut. Cerita-cerita dahulu yang meninggalkan jejak kebaikan diulas untuk perenungan kita agar lebih baik dan semangat lagi dalam menjalani kehidupan ini.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Abdul_Wahid_al_Faizin_Sepenggal_Kisah_Sejuta_Makna?id=tO3hDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Spiritual Mental Block Breaking -->
+            <div class="item1">
+              <p id="penulis">Ir. H. Purwanto Yusdarmanto</p>
+              <p id="judul">Spiritual Mental ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Spiritual Mental Block Breaking--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Spiritual Mental Block Breaking</b>
+                    </br>
+                      “Allah mengikuti segala prasangka hamba-Nya.” Kesuksesan atau kegagalan hidup seseorang dipicu oleh salah satu faktor yaitu cara ia mengatur pikiran dan hatinya terhadap sesuatu. Manusia mempunyai dua alam pikiran, alam sadar dan alam bawah sadar. Alam bawah sadarlah yang paling banyak memengaruhi tindakan dan pola pikir seseorang.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Ir_H_Purwanto_Yusdarmanto_Spiritual_Mental_Block_B?id=W-3zDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Tenanglah, Masih Ada Allah -->
+            <div class="item1">
+              <p id="penulis">Murnisetya</p>
+              <p id="judul">Tenanglah, ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Tenanglah, Masih Ada Allah--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Tenanglah, Masih Ada Allah</b>
+                    </br>
+                      Sering kali kita merasa galau, kalut, khawatir, atau gelisah berlebih dikarenakan ujian-ujian hidup yang silih berganti atau akibat kesalahan kita yang terlalu berharap dan bergantung kepada makhluk-Nya.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Murnisetya_Tenanglah_Masih_Ada_Allah?id=iq3iDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Terimalah 10 Tahun Merajut Kesabaran -->
+            <div class="item1">
+              <p id="penulis">Arief Muhajir</p>
+              <p id="judul">Terimalah 10 Tahun ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Terimalah 10 Tahun Merajut Kesabaran--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Terimalah 10 Tahun Merajut Kesabaran</b>
+                    </br>
+                      Dalam menghadapi problematika hidup, baik ujian kekayaan, kemiskinan, sakit , dan yang lainnya, Rasulullah saw. mengajak umat Islam untuk bersikap qanaah, tawadhu, tawakal sekaligus bermental tegar dan kuat. Inilah yang dipegang teguh oleh Ferrasta Soebadri atau yang lebih akrab kita kenal dengan “Pepeng” di kala dirinya diuji Allah SWT dengan penyakit.
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/search?q=Terimalah%E2%80%A6%2010%20Tahun%20Merajut%20Kesabaran&c=books&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Untuk Bertahan -->
+            <div class="item1">
+              <p id="penulis">Elda Rina</p>
+              <p id="judul">Pribadi Hebat</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Untuk Bertahan--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Untuk Bertahan</b> </br> Ini dia Pribadi Hebat"
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Elda_Rina_Untuk_Bertahan?id=AK3iDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Wahai Jiwaku Dengarkanlah -->
+            <div class="item1">
+              <p id="penulis">Zico Alviandri</p>
+              <p id="judul">Wahai Jiwaku ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Motivasi/Wahai Jiwaku Dengarkanlah--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Wahai Jiwaku Dengarkanlah</b>
+                    </br>
+                      Buku Wahai Jiwaku, Dengarkanlah memuat beragam tulisan dari penulis yang tersebar di media sosial selama kurun beberapa tahun dan mendapat respons positif dari banyak orang yang menyukai dan membagikan tulisan penulis hingga tersebar ke berbagai pelosok daerah. Tulisan yang memiliki “ruh” dan sarat pesan moral sehingga bisa dijadikan sebagai sumber inspirasi bagi pembaca. 
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Zico_Alviandri_Wahai_Jiwaku_Dengarkanlah?id=mubhDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+          </div>
+          <br />
+          <!-- Akhir Koleksi dll -->
+          <!-- Koleksi dll -->
+          <h5>Koleksi Lainnya</h5>
+          <div
+            class="gallery1 js-flickity"
+            data-flickity-options='{ "wrapAround": true, "pageDots": false, "contain": true }'
+          >
+            <!-- Hari-Hari Mencari Cinta -->
+            <div class="item1">
+              <p id="penulis">Akh. Muwafik Saleh</p>
+              <p id="judul">Hari-Hari ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Hari-Hari Mencari Cinta--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Hari-Hari Mencari Cinta</b>
+                    </br>
+                      Hari-Hari Mencari Cinta adalah sebuah goresan pena perenungan yang dituangkan hari demi hari. Sebuah teropongan jiwa atas hari-hari yang bertebaran di sekeliling kita. Hari-hari yang patut dicerna dan dicermati rahasia di baliknya. Bukankah waktu adalah titipan dan anugerah dari Sang Kuasa?
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="https://play.google.com/store/books/details/Akh_Muwafik_Saleh_Hari_Hari_Mencari_Cinta?id=9O_hDwAAQBAJ&hl=en"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Kerukunan Beragama -->
+            <div class="item1">
+              <p id="penulis">Dr. Adian Husaini</p>
+              <p id="judul">Kerukunan Beragama</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Kerukunan Beragama--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Kerukunan Beragama</b>
+                    </br>
+
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="#"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Liberalisasi Islam di Indonesia -->
+            <div class="item1">
+              <p id="penulis">Dr. Adian Husaini</p>
+              <p id="judul">Liberalisasi Islam ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Liberalisasi Islam di Indonesia--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Liberalisasi Islam di Indonesia</b>
+                    </br>
+                    
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="#"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Lo Gue Butuh Tau LGBT -->
+            <div class="item1">
+              <p id="penulis">Sinyo</p>
+              <p id="judul">Lo Gue Butuh Tau ...</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Lo Gue Butuh Tau LGBT--EBOOK--cover_001.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Lo Gue Butuh Tau LGBT</b>
+                    </br>
+                      Contohnya kalau zaman kita, orang tua, dulu jika seorang pemuda tidak pacaran maka dianggap sebagai anak yang saleh, baik, berpendidikan, sopan, moralnya terjaga, dan seabrek pujian lainnya. Di zaman sekarang, kalau kita tidak pacaran malah dianggap gay atau lesbian. Nah, bingung, kan?
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="#"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+            <!-- Tafsir al-Azhar Jilid 1 -->
+            <div class="item1">
+              <p id="penulis">Hamka</p>
+              <p id="judul">Tafsir al-Azhar #1</p>
+              <div class="gallery-cell">
+                <a>
+                  <img
+                    src="img/Tafsir al-Azhar Jilid 1--EBOOK--cover.jpg"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-html="true"
+                    title=" <b>Tafsir al-Azhar Jilid 1</b>
+                    </br>
+                    
+                    "
+                  />
+                </a>
+              </div>
+              <a
+                href="#"
+                class="btn"
+                id="btn-beli"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                >BELI</a
+              >
+            </div>
+
+          </div>
+          <br />
+          <!-- Akhir Koleksi dll -->
+          
         </div>
-        <div class="btn-content-3" id="myBtn-3">Lebih Lengkap</div>
+
+        
+        <!-- <div class="akhir-3"> -->
+          
+          <!-- <h5>Koleksi Kesehatan</h5> -->
+          <!-- <div class="gallery1" > -->
+
+            
+          <!-- </div> -->
+          <!-- <br /> -->
+
+        <!-- </div> -->
+        <!-- <div class="btn-content-3" id="myBtn-3">Lebih Lengkap</div> -->
+
+
         <!-- </span> -->
         <!-- <button class="btn-content" onclick="myFunction3()" id="myBtn-3">
           Lebih Lengkap
@@ -1468,102 +3833,52 @@
     type="text/javascript"
   ></script>
   <!-- Batas slide -->
-
-  <!-- OLD - read more & read less -->
-  <!-- <script type="text/javascript">
-      function myFunction1() {
-        var dots = document.getElementById("dots-1");
-        var moreText = document.getElementById("more-1");
-        var btnText = document.getElementById("myBtn-1");
-
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Lebih Lengkap";
-          moreText.style.display = "none";
+  
+  <!-- TOOLTIP -->
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  <!-- TOOLTIP -->
+  <!-- read more & read less -->
+    <script>
+      $(".akhir-1").hide();
+      $(".btn-content-1").click(function () {
+        if ($(this).hasClass("active")) {
+          $(this).html("Lebih Lengkap").removeClass("active");
+          $(this).prev(".akhir-1").slideUp();
         } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Lebih Singkat";
-          moreText.style.display = "inline";
+          $(this).html("Lebih Singkat").addClass("active");
+          $(this).prev(".akhir-1").slideDown();
         }
-      }
-    </script> -->
-  <!-- <script type="text/javascript">
-      function myFunction2() {
-        var dots = document.getElementById("dots-2");
-        var moreText = document.getElementById("more-2");
-        var btnText = document.getElementById("myBtn-2");
-
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Lebih Lengkap";
-          moreText.style.display = "none";
+      });
+    </script>
+    <script>
+      $(".akhir-2").hide();
+      $(".btn-content-2").click(function () {
+        if ($(this).hasClass("active")) {
+          $(this).html("Lebih Lengkap").removeClass("active");
+          $(this).prev(".akhir-2").slideUp();
         } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Lebih Singkat";
-          moreText.style.display = "inline";
+          $(this).html("Lebih Singkat").addClass("active");
+          $(this).prev(".akhir-2").slideDown();
         }
-      }
-    </script> -->
-  <!-- <script type="text/javascript">
-      function myFunction3() {
-        var dots = document.getElementById("dots-3");
-        var moreText = document.getElementById("more-3");
-        var btnText = document.getElementById("myBtn-3");
-
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Lebih Lengkap";
-          moreText.style.display = "none";
+      });
+    </script>
+    <script>
+      $(".akhir-3").hide();
+      $(".btn-content-3").click(function () {
+        if ($(this).hasClass("active")) {
+          $(this).html("Lebih Lengkap").removeClass("active");
+          $(this).prev(".akhir-3").slideUp();
         } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Lebih Singkat";
-          moreText.style.display = "inline";
+          $(this).html("Lebih Singkat").addClass("active");
+          $(this).prev(".akhir-3").slideDown();
         }
-      }
-    </script> -->
-  <!-- OLD - read more & read less -->
-  <script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip();
-    });
-  </script>
+      });
+    </script>
   <!-- read more & read less -->
 
-  <script>
-    $(".akhir-1").hide();
-    $(".btn-content-1").click(function () {
-      if ($(this).hasClass("active")) {
-        $(this).html("Lebih Lengkap").removeClass("active");
-        $(this).prev(".akhir-1").slideUp();
-      } else {
-        $(this).html("Lebih Singkat").addClass("active");
-        $(this).prev(".akhir-1").slideDown();
-      }
-    });
-  </script>
-  <script>
-    $(".akhir-2").hide();
-    $(".btn-content-2").click(function () {
-      if ($(this).hasClass("active")) {
-        $(this).html("Lebih Lengkap").removeClass("active");
-        $(this).prev(".akhir-2").slideUp();
-      } else {
-        $(this).html("Lebih Singkat").addClass("active");
-        $(this).prev(".akhir-2").slideDown();
-      }
-    });
-  </script>
-  <script>
-    $(".akhir-3").hide();
-    $(".btn-content-3").click(function () {
-      if ($(this).hasClass("active")) {
-        $(this).html("Lebih Lengkap").removeClass("active");
-        $(this).prev(".akhir-3").slideUp();
-      } else {
-        $(this).html("Lebih Singkat").addClass("active");
-        $(this).prev(".akhir-3").slideDown();
-      }
-    });
-  </script>
-  <!-- read more & read less -->
+
 </html>
