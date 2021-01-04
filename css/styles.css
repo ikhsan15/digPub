@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 body {
   background-image: url(../img/bg1.jpg);
@@ -49,7 +50,7 @@ nav form {
 }
 h1.title {
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
   margin-left: 17%;
   margin-top: 15%;
 }
