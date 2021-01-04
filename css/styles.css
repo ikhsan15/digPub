@@ -49,6 +49,13 @@ nav form {
   min-height: 400px;
   text-align: center;
 }
+.img-lang img {
+  width: 30px;
+  margin-left: 5%;
+  margin-top: 2%;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
 h1.title {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
