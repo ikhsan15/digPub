@@ -139,6 +139,10 @@
 
     <!-- HALAMAN ATAS -->
     <!-- <div class="box-body"> -->
+    <a href="#" id="scroll" style="display: none;">
+      <span></span>
+    </a>
+
     <section class="halamanatas text-white" id="halamanatas">
       <div class="container">
         <div class="row">
@@ -3953,6 +3957,22 @@
       });
     </script>
   <!-- read more & read less -->
+
+  <script>
+    $(document).ready(function(){ 
+        $(window).scroll(function(){ 
+            if ($(this).scrollTop() > 100) { 
+                $('#scroll').fadeIn(); 
+            } else { 
+                $('#scroll').fadeOut(); 
+            } 
+        }); 
+        $('#scroll').click(function(){ 
+            $("html, body").animate({ scrollTop: 0 }, 600); 
+            return false; 
+        }); 
+    });
+  </script>
 
 
 </html>

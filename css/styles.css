@@ -374,6 +374,39 @@ h5 {
   box-sizing: border-box;
 }
 
+/* back to top */
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #6b9531;
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+}
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: white;
+}
+#scroll:hover {
+  background-color: #8ac361;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
+}
+
 @media (min-width: 1179px), print {
 }
 
@@ -520,7 +553,7 @@ h5 {
   /* ABOUT */
   .about {
     position: relative;
-    margin-top: -110px;
+    margin-top: -230px;
   }
   .about p {
     text-align: center;
@@ -630,7 +663,7 @@ h5 {
   /* ABOUT */
   .about {
     position: relative;
-    margin-top: -100px;
+    margin-top: -200px;
   }
   .about p {
     text-align: center;
@@ -752,7 +785,7 @@ h5 {
   .about {
     width: 90%;
     position: relative;
-    margin-top: -90px;
+    margin-top: -200px;
   }
   p.content-p {
     padding-right: 0px;
