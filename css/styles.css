@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 body {
-  background-image: url(../img/bg1.jpg);
+  /* background-image: url(../img/bg1.jpg); */
   /* margin-top: 100px; */
   font-family: "Montserrat", sans-serif;
   background-size: contain;
+  background-color: white;
 }
 html {
   position: relative;
@@ -44,17 +45,26 @@ nav form {
 /* BAGIAN HERO LANDING PAGE */
 .halamanatas {
   background-color: hsla(89, 43%, 51%, 0.9);
+  background-color: #6b9531;
   min-height: 400px;
   text-align: center;
 }
+.img-lang img {
+  width: 30px;
+  margin-left: 5%;
+  margin-top: 2%;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
 h1.title {
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  margin-left: 17%;
-  margin-top: 15%;
+  margin-left: 10%;
+  margin-top: 17%;
 }
 .ats img {
-  width: 200px;
+  width: 90%;
   margin-top: 10%;
 }
 p.sub-title {
@@ -91,9 +101,11 @@ p.content-p {
   font-size: 18px;
   padding-right: 170px;
 }
+
+/* yang di ubah */
 img.img-mockup {
   margin-top: 50px;
-  width: 110px;
+  width: 250px;
 }
 .btn-content-1,
 .btn-content-2,
@@ -162,7 +174,8 @@ ol {
 
 /* BAGIAN CONTENT 3 LANDING PAGE */
 .galeri {
-  background-color: hsla(89, 43%, 51%, 0.9);
+  /* background-color: hsla(89, 43%, 51%, 0.9); */
+  background-color: #6b9531;
   padding-bottom: 5%;
 }
 .galeri h2,
@@ -187,6 +200,7 @@ h5 {
   background-color: #ffff;
   height: 280px;
   margin-right: 8px;
+  border-radius: 10px;
 }
 /* cell number */
 .gallery-cell:before {
@@ -282,15 +296,21 @@ h5 {
 
 #penulis {
   color: black;
+  padding-left: 2%;
   padding-bottom: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 #judul {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 17px;
   margin-top: -15%;
+  padding-left: 2%;
   margin-bottom: 5%;
   padding-bottom: 2%;
   color: black;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 #myBtn-3 {
   margin-left: 41%;
@@ -302,16 +322,19 @@ h5 {
   margin-top: 5px;
   margin-left: 3.5%;
   border: 3px solid white;
-  background-color: #8ac361;
+  /* background-color: #8ac361; */
+  background-color: #6b9531;
   color: white;
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
   border-radius: 10px;
+  margin-top: 5%;
 }
 #btn-beli:hover {
   background-color: white;
-  color: #8ac361;
+  /* color: #8ac361; */
+  color: #6b9531;
 }
 
 /* FINISH CONTENT 3 LANDING PAGE */
@@ -356,6 +379,11 @@ h5 {
   #myBtn-3 {
     margin-left: 38%;
   }
+/* yang ditambahkan * fauzi */
+  .img-google img {
+    width: 150px;
+    margin: 0px 0px 0px 10%;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1000px) {
@@ -389,11 +417,13 @@ h5 {
     width: 120px;
     margin-left: 10%;
   }
+  /* yang ditambahkan *fauzi */
   #g-p-book {
-    margin-left: 15%;
+    margin-left: 13%;
   }
   .ats img {
-    width: 180px;
+    /* yang diubah */
+    width: 350px;
     margin-top: 10%;
     margin-left: -20%;
   }
@@ -471,7 +501,8 @@ h5 {
     margin: 0px 10px 0px 10px;
   }
   img.img-mockup {
-    width: 90px;
+    /* yang diubah */
+    width: 150px;
     margin-top: 50px;
     margin-left: 5%;
   }
