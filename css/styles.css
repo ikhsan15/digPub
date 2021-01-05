@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-=======
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
->>>>>>> 3b1464a9c5d5bdaf7e1854fbc90a11550b8ea25e
 
 body {
   /* background-image: url(../img/bg1.jpg); */
@@ -63,16 +58,10 @@ nav form {
 }
 h1.title {
   text-transform: uppercase;
-<<<<<<< HEAD
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   margin-left: 10%;
   margin-top: 17%;
-=======
-  font-family: 'Montserrat', sans-serif;
-  margin-left: 17%;
-  margin-top: 15%;
->>>>>>> 3b1464a9c5d5bdaf7e1854fbc90a11550b8ea25e
 }
 .ats img {
   width: 90%;
