@@ -838,7 +838,10 @@ h5 {
     margin-left: 11%;
   }
   #galeri h2 {
-    font-size: 28px;
+    font-size: 22px;
+  }
+  #galeri h5 {
+    font-size: 17px;
   }
   .tooltip-inner {
     font-size: 10px;
