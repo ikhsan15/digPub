@@ -47,6 +47,8 @@ nav form {
   background-color: hsla(89, 43%, 51%, 0.9);
   background-color: #6b9531;
   min-height: 400px;
+}
+.halamanatas .col-sm-7 {
   text-align: center;
 }
 .img-lang img {
@@ -66,6 +68,8 @@ h1.title {
 .ats img {
   width: 80%;
   margin-top: 10%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 p.sub-title {
   margin-left: 18%;
@@ -103,7 +107,10 @@ p.content-p {
 }
 img.img-mockup {
   margin-top: 50px;
-  width: 110px;
+  width: 320px;
+  margin-bottom: 1%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 .btn-content-1,
 .btn-content-2,
@@ -371,6 +378,33 @@ h5 {
 }
 
 @media (min-width: 1001px) and (max-width: 1178px) {
+  /* HALAMAN ATAS */
+  h1.title {
+    margin-left: 1%;
+    margin-top: 10%;
+  }
+  p.sub-title {
+    margin-left: 1%;
+  }
+  .img-google img {
+    width: 120px;
+    margin-left: 1%;
+  }
+  .ats img {
+    width: 350px;
+    margin-left: -20%;
+  }
+  /* ABOUT */
+  h2.content-1-title {
+    margin-right: 5%;
+  }
+  .about .col-sm-12 {
+    margin: 0px 0px 0px 65px;
+  }
+  p.content-p {
+    padding-right: 130px;
+  }
+  /* ABOUT */
   #myBtn-1 {
     margin-left: 29.5%;
   }
@@ -398,25 +432,22 @@ h5 {
 
 @media (min-width: 576px) and (max-width: 768px) {
   /* HALAMAN ATAS */
-  h1.title {
-    margin-left: 10%;
-    margin-top: 15%;
-    font-size: 30px;
+  .halamanatas {
+    min-height: 300px;
   }
-  p.sub-title {
-    margin-left: 10%;
+  h1.title {
+    margin-top: 10%;
+    font-size: 35px;
   }
   .img-google img {
-    width: 120px;
-    margin-left: 10%;
-  }
-  #g-p-book {
-    margin-left: 15%;
+    width: 100px;
   }
   .ats img {
-    width: 180px;
-    margin-top: 10%;
+    width: 250px;
     margin-left: -20%;
+  }
+  .img-lang {
+    margin-left: -40%;
   }
 
   /* ABOUT */
@@ -430,8 +461,22 @@ h5 {
   #myBtn-1 {
     margin-left: 30%;
   }
+  img.img-mockup {
+    width: 230px;
+    margin-top: 50px;
+    margin-left: 5%;
+  }
 
   /* PORTOFOLIO */
+  h2.content-2-title {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .portofolio p,
+  ol {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
   #myBtn-2 {
     margin-left: 34%;
   }
@@ -456,22 +501,26 @@ h5 {
     margin-left: 1%;
   }
   #g-p {
-    margin-left: 1%;
-    width: 130px;
-    height: 45px;
+    margin-left: 4%;
+    width: 100px;
   }
   #g-p-book {
-    width: 130px;
-    height: 45px;
+    width: 100px;
   }
   .img-google {
     margin: auto;
+  }
+  .ats img {
+    width: 100%;
+  }
+  .img-lang {
+    margin-left: 65%;
   }
 
   /* ABOUT */
   .about {
     position: relative;
-    margin-top: -120px;
+    margin-top: -110px;
   }
   .about p {
     text-align: center;
@@ -492,7 +541,7 @@ h5 {
     margin: 0px 10px 0px 10px;
   }
   img.img-mockup {
-    width: 90px;
+    width: 200px;
     margin-top: 50px;
     margin-left: 5%;
   }
@@ -561,23 +610,27 @@ h5 {
   p.sub-title {
     margin-left: 1%;
   }
-  #g-p {
-    margin-left: 1%;
-    width: 130px;
-    height: 45px;
-  }
-  #g-p-book {
-    width: 130px;
-    height: 45px;
-  }
   .img-google {
     margin: auto;
+  }
+  #g-p {
+    margin-left: 4%;
+    width: 100px;
+  }
+  #g-p-book {
+    width: 100px;
+  }
+  .ats img {
+    width: 100%;
+  }
+  .img-lang {
+    margin-left: 60%;
   }
 
   /* ABOUT */
   .about {
     position: relative;
-    margin-top: -120px;
+    margin-top: -100px;
   }
   .about p {
     text-align: center;
@@ -602,7 +655,7 @@ h5 {
     margin: 0px 10px 0px 10px;
   }
   img.img-mockup {
-    width: 90px;
+    width: 200px;
     margin-top: 50px;
     margin-left: 5%;
   }
@@ -680,22 +733,26 @@ h5 {
   }
   #g-p {
     margin-left: 1%;
-    width: 130px;
-    height: 45px;
+    width: 100px;
   }
   #g-p-book {
-    width: 130px;
-    height: 45px;
+    width: 100px;
   }
   .img-google {
     margin: auto;
+  }
+  .ats img {
+    width: 100%;
+  }
+  .img-lang {
+    margin-left: 60%;
   }
 
   /* ABOUT */
   .about {
     width: 90%;
     position: relative;
-    margin-top: -120px;
+    margin-top: -90px;
   }
   p.content-p {
     padding-right: 0px;
@@ -714,8 +771,8 @@ h5 {
   }
   img.img-mockup {
     margin-top: 50px;
-    width: 110px;
-    margin-left: 15%;
+    width: 200px;
+    margin-left: 10%;
   }
   #myBtn-1 {
     margin-left: 14%;
@@ -723,11 +780,6 @@ h5 {
     height: 50px;
     font-size: 15px;
     padding: 10px;
-  }
-  img.img-mockup {
-    width: 90px;
-    /*       margin-top: 50px; */
-    /*       margin-left: 5% */
   }
   .col-sm-12 img {
     float: none;
