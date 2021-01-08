@@ -46,7 +46,7 @@ nav form {
 .halamanatas {
   background-color: hsla(89, 43%, 51%, 0.9);
   background-color: #6b9531;
-  min-height: 400px;
+  min-height: 450px;
 }
 .halamanatas .col-sm-7 {
   text-align: center;
@@ -80,6 +80,33 @@ p.sub-title {
 }
 #g-p-book {
   margin: 10px;
+}
+#pubLogo {
+  width: 15%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+.btn-lang {
+  outline: none !important;
+  border: 2px solid white;
+  background-color: #6b9531;
+  color: white;
+  padding: 1px 5px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: auto;
+}
+.btn-lang:hover {
+  background-color: white;
+  color: #6b9531;
+}
+#eng {
+  margin-left: -5%;
 }
 /* FINISH HERO LANDING PAGE */
 
@@ -412,6 +439,9 @@ h5 {
 
 @media (min-width: 1001px) and (max-width: 1178px) {
   /* HALAMAN ATAS */
+  .halamanatas {
+    min-height: 400px;
+  }
   h1.title {
     margin-left: 1%;
     margin-top: 10%;
@@ -426,6 +456,9 @@ h5 {
   .ats img {
     width: 350px;
     margin-left: -20%;
+  }
+  .btn-lang {
+    width: 50%;
   }
   /* ABOUT */
   h2.content-1-title {
@@ -450,6 +483,9 @@ h5 {
   /* HALAMAN ATAS */
   #g-p-book {
     margin-left: 80px;
+  }
+  .btn-lang {
+    width: 70%;
   }
   .about .col-sm-12 {
     margin: 0px 50px 0px 50px;
@@ -481,6 +517,9 @@ h5 {
   }
   .img-lang {
     margin-left: -40%;
+  }
+  .btn-lang {
+    width: 70%;
   }
 
   /* ABOUT */
