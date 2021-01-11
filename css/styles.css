@@ -85,6 +85,8 @@ p.sub-title {
   width: 15%;
   margin-left: 15%;
   margin-top: 3%;
+  background-color: white;
+  border-radius: 20px;
 }
 .btn-lang {
   outline: none !important;
