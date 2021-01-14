@@ -126,6 +126,7 @@ h2.content-1-title {
 }
 .about p {
   text-align: justify;
+  color: black;
 }
 .about .col-sm-12 {
   margin: 0px 50px 0px 90px;
@@ -197,6 +198,24 @@ ol {
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
+  color: black;
+}
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8,
+#p9,
+#p10,
+#p11,
+#p12,
+#p13,
+#p14,
+#p15 {
+  color: #18cef6;
 }
 
 #myBtn-2 {
