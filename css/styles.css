@@ -45,7 +45,7 @@ nav form {
 /* BAGIAN HERO LANDING PAGE */
 .halamanatas {
   background-color: hsla(89, 43%, 51%, 0.9);
-  background-color: #57c894;
+  background-color: #18cef6;
   min-height: 450px;
 }
 .halamanatas .col-sm-7 {
@@ -91,7 +91,7 @@ p.sub-title {
 .btn-lang {
   outline: none !important;
   border: 2px solid white;
-  background-color: #57c894;
+  background-color: #18cef6;
   color: white;
   padding: 1px 5px;
   font-size: 15px;
@@ -105,7 +105,7 @@ p.sub-title {
 }
 .btn-lang:hover {
   background-color: white;
-  color: #57c894;
+  color: #18cef6;
 }
 #eng {
   margin-left: -5%;
@@ -114,7 +114,7 @@ p.sub-title {
 
 /* BAGIAN CONTENT 1 LANDING PAGE */
 .about {
-  color: #57c894;
+  color: #18cef6;
   background-color: white;
 }
 h2.content-1-title {
@@ -146,9 +146,9 @@ img.img-mockup {
 .btn-content-2,
 .btn-content-3 {
   outline: none !important;
-  border: 2px solid #57c894;
+  border: 2px solid #18cef6;
   background-color: white;
-  color: #57c894;
+  color: #18cef6;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -159,7 +159,7 @@ img.img-mockup {
 .btn-content-1:hover,
 .btn-content-2:hover,
 .btn-content-3:hover {
-  background-color: #57c894;
+  background-color: #18cef6;
   color: white;
 }
 #myBtn-1 {
@@ -178,7 +178,7 @@ img.img-mockup {
 .portofolio {
   padding-top: 40px;
   background-color: white;
-  color: #57c894;
+  color: #18cef6;
   padding-bottom: 5px;
 }
 .portofolio h1 {
@@ -215,7 +215,7 @@ ol {
 #p13,
 #p14,
 #p15 {
-  color: #57c894;
+  color: #18cef6;
 }
 
 #myBtn-2 {
@@ -228,7 +228,7 @@ ol {
 /* BAGIAN CONTENT 3 LANDING PAGE */
 .galeri {
   /* background-color: hsla(89, 43%, 51%, 0.9); */
-  background-color: #57c894;
+  background-color: #18cef6;
   padding-bottom: 5%;
 }
 .galeri h2,
@@ -269,7 +269,7 @@ h5 {
 .item1 p {
   width: 96%;
   background-color: white;
-  color: #57c894;
+  color: #18cef6;
   font-size: 12px;
   padding-top: 3px;
   padding-left: 3px;
@@ -305,7 +305,7 @@ h5 {
     .item1 p{
       width:96%;
       background-color: white;
-      color: #57C894;
+      color: #18CEF6;
       font-size: 12px;
       padding-top: 3px;
       padding-left: 3px;
@@ -340,7 +340,7 @@ h5 {
 /* #item1 p{
       width:96%;
       background-color: white;
-      color: #57C894;
+      color: #18CEF6;
       font-size: 12px;
       padding-top: 3px;
       padding-left: 3px;
@@ -376,7 +376,7 @@ h5 {
   margin-left: 3.5%;
   border: 3px solid white;
   /* background-color: #8ac361; */
-  background-color: #57c894;
+  background-color: #18cef6;
   color: white;
   font-size: 12px;
   font-weight: bold;
@@ -387,7 +387,7 @@ h5 {
 #btn-beli:hover {
   background-color: white;
   /* color: #8ac361; */
-  color: #57c894;
+  color: #18cef6;
 }
 
 /* FINISH CONTENT 3 LANDING PAGE */
@@ -430,7 +430,7 @@ h5 {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  background-color: #57c894;
+  background-color: #18cef6;
   text-indent: -9999px;
   display: none;
   -webkit-border-radius: 60px;
