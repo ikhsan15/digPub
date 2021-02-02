@@ -44,7 +44,7 @@ nav form {
 
 /* BAGIAN HERO LANDING PAGE */
 .halamanatas {
-  background-color: hsla(89, 43%, 51%, 0.9);
+  /* background-color: hsla(89, 43%, 51%, 0.9); */
   background-color: #18cef6;
   min-height: 450px;
 }
@@ -449,7 +449,7 @@ h5 {
   border-bottom-color: white;
 }
 #scroll:hover {
-  background-color: #8ac361;
+  background-color: #61dbf7;
   opacity: 1;
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
