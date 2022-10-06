@@ -1,0 +1,120 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: "Museo Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ul.accordion-list {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	/* padding: 20px; */
+	margin: 0;
+	list-style: none;
+	/* background-color: #f9f9fa; */
+}
+ul.accordion-list li {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding: 20px;
+	margin: 0 auto 15px auto;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	cursor: pointer;
+}
+ul.accordion-list li.active h3:after {
+	transform: rotate(45deg);
+}
+ul.accordion-list li h3 {
+	font-weight: 700;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 0 0 0 0;
+	margin: 0;
+	font-size: 15px;
+	letter-spacing: 0.01em;
+	cursor: pointer;
+	color: #18cef6;
+}
+ul.accordion-list li h3:after {
+	content: "";
+	font-family: "material-design-iconic-font";
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #fcc110;
+	transition: all 0.3s ease-in-out;
+	font-size: 18px;
+}
+ul.accordion-list li div.answer {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+ul.accordion-list li div.answer p {
+	position: relative;
+	display: block;
+	font-weight: 300;
+	padding: 10px 0 0 0;
+	cursor: pointer;
+	line-height: 150%;
+	margin: 0 0 15px 0;
+	font-size: 14px;
+}
+
+.gallery-cell img {
+	width: 400px;
+	height: 540px;
+	padding: 30px;
+	opacity: 1;
+	/* border: 1px solid;  */
+}
+.gallery-cell {
+	width: 400px;
+	height: 540px;
+	margin-right: 8px;
+	border-radius: 10px;
+}
+#fiqihniat {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/FIQIH NIAT--cover.jpg");
+}
+#pesancinta {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/PESAN CINTA LUKMAN ALHAKIM--cover.jpg");
+}
+.gallery-cell img {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.portofolio {
+	padding-top: 40px;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
