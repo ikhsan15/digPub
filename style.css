@@ -93,6 +93,41 @@ ul.accordion-list li div.answer p {
 	margin-right: 8px;
 	border-radius: 10px;
 }
+#adabbekerja {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/Adab\ Bekerja\ dan\ Berbisnis.jpg");
+}
+#cahayabaru {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/Cahaya\ Baru.jpg");
+}
+#cerai {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/Cerai--EOOK--cover.jpg");
+}
+#cintadilangitqatar {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/Cinta\ di\ Langit\ Qatar.jpg");
+}
+#doarasulullah {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/doa-doa\ rasulullah.jpg");
+}
 #fiqihniat {
 	background: linear-gradient(
 			rgba(255, 255, 255, 0.5),
@@ -107,6 +142,28 @@ ul.accordion-list li div.answer p {
 		),
 		url("img/Coming/PESAN CINTA LUKMAN ALHAKIM--cover.jpg");
 }
+#psikologikonflik {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/Psikologi\ Konflik.jpg");
+}
+#umatislammenghadapi {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/Umat\ Islam\ Menghadapi\ Kristenisasi\ dan\ Sekularisme.jpg");
+}
+#tobat {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/Tobat\,\ Kembali\ Kepada\ Allah.jpg");
+}
+
 .gallery-cell img {
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
