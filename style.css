@@ -128,6 +128,13 @@ ul.accordion-list li div.answer p {
 		),
 		url("img/Coming/doa-doa\ rasulullah.jpg");
 }
+#dzikircahaya {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("img/Coming/DZIKIR\ COVER\ depan.jpg");
+}
 #fiqihniat {
 	background: linear-gradient(
 			rgba(255, 255, 255, 0.5),
