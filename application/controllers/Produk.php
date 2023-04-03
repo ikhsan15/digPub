@@ -199,7 +199,7 @@ class Produk extends CI_Controller{
             die("image is too large, must be < 5MB");
           }
 
-          die(print_r($kategori_idn));
+          // die(print_r($kategori_idn));
           $data = array(
             'nama_penulis'  => "'".pg_escape_string($nama_penulis)."'",
             'judul_idn'     => "'".pg_escape_string($judul_idn)."'",
