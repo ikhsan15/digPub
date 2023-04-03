@@ -113,8 +113,8 @@ class Produk extends CI_Controller{
               'nama_penulis'  => "'".pg_escape_string($nama_penulis)."'",
               'judul_idn'     => "'".pg_escape_string($judul_idn)."'",
               'judul_eng'     => "'".pg_escape_string($judul_eng)."'",
-              'kategori_idn'  => "'".$kategori_idn."'",
-              'kategori_eng'  => "'".$kategori_idn."'",
+              'kategori_idn'  => $kategori_idn,
+              'kategori_eng'  => $kategori_idn,
               'terlaris'      => "'".$terlaris."'",
               'sinopsis_idn'  => "'".pg_escape_string($sinopsis_idn)."'",
               'sinopsis_eng'  => "'".pg_escape_string($sinopsis_eng)."'",
@@ -140,8 +140,8 @@ class Produk extends CI_Controller{
               'nama_penulis'  => "'".pg_escape_string($nama_penulis)."'",
               'judul_idn'     => "'".pg_escape_string($judul_idn)."'",
               'judul_eng'     => "'".pg_escape_string($judul_eng)."'",
-              'kategori_idn'  => "'".$kategori_idn."'",
-              'kategori_eng'  => "'".$kategori_idn."'",
+              'kategori_idn'  => $kategori_idn,
+              'kategori_eng'  => $kategori_idn,
               'terlaris'      => "'".$terlaris."'",
               'sinopsis_idn'  => "'".pg_escape_string($sinopsis_idn)."'",
               'sinopsis_eng'  => "'".pg_escape_string($sinopsis_eng)."'",
@@ -199,12 +199,13 @@ class Produk extends CI_Controller{
             die("image is too large, must be < 5MB");
           }
 
+          die(print_r($kategori_idn));
           $data = array(
             'nama_penulis'  => "'".pg_escape_string($nama_penulis)."'",
             'judul_idn'     => "'".pg_escape_string($judul_idn)."'",
             'judul_eng'     => "'".pg_escape_string($judul_eng)."'",
-            'kategori_idn'  => "'".$kategori_idn."'",
-            'kategori_eng'  => "'".$kategori_idn."'",
+            'kategori_idn'  => $kategori_idn,
+            'kategori_eng'  => $kategori_idn,
             'terlaris'      => "'".$terlaris."'",
             'sinopsis_idn'  => "'".pg_escape_string($sinopsis_idn)."'",
             'sinopsis_eng'  => "'".pg_escape_string($sinopsis_eng)."'",
