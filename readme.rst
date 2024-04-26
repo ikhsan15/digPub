@@ -2,7 +2,7 @@
 Develop by:
 ###################
 
-https://github.com/ikhsan15 (2021-Now)_.
+https://github.com/ikhsan15 (2021-Now)\n
 https://github.com/iamfauzi16 (2021)
 
 
